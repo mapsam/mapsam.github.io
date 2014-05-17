@@ -12,7 +12,7 @@ encoding: utf-8
 pygments: true
 
 # permalinks
-permalink: /:categories/:title
+permalink: /post/:title
 
 # auto
 auto: true

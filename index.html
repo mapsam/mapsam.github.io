@@ -4,21 +4,23 @@ weight: 1
 ---
 
 {% include header.html %}
-	<div id="main">
-		<div id="image" class="shift" ></div>
-		<div id="content">
-			<h1>mapsam</h1>
-			<p>I’m a Seattle based designer working on websites, cartographic productions, and 
-other digital curiosities. I'm the lead designer & co-founder of <a href="http://situatedlaboratories.com" class="sl">Situated 
-Laboratories</a> and web developer at <a href="http://creativemediaalliance.com" class="goog">Creative Media Alliance</a>.
-
-<p>I take care of a <a href="http://giscollective.org" class="gisc">collaborative blog</a> and am also an assistant editor of a <a href="http://atlasofdesign.org" class="aod">design atlas</a>. This is my <a href="projects.php" class="proj">portfolio</a> and space for <a href="mugs/index.php" class="exp">experiments</a>.<p>
-		</div>
-		<div id="iconContainer">
-			<a href="https://github.com/svmatthews" target="_blank"><div class="icon" id="first"></div></a>
-			<a href="https://twitter.com/vancematthews" target="_blank"><div class="icon" id="second"></div></a>
-			<a href="http://www.linkedin.com/in/svmatthews" target="_blank"><div class="icon" id="third"></div></a>
-			<a href="http://www.facebook.com/matthews.sam" target="_blank" target="_blank"><div class="icon" id="fourth"></div></a>
-		</div>
-	</div>
+<div class="home">
+	<div id="image" class="shift" ></div>
+	<p>I’m a Seattle-based designer working on websites, cartographic productions, and other digital curiosities. I'm the lead designer & co-founder of <a href="http://situatedlaboratories.com" class="sl">Situated Laboratories</a> and web developer at <a href="http://creativemediaalliance.com" class="goog">Creative Media Alliance</a>.</p>
+	<p>I take care of a <a href="http://giscollective.org" class="gisc">collaborative blog</a> and am also an assistant editor of a <a href="http://atlasofdesign.org" class="aod">design atlas</a>. This is my <a href="projects.php" class="proj">portfolio</a> and space for <a href="mugs/index.php" class="exp">experiments</a>.</p>
+	<hr>
+	<ul class="connect">
+		<li><a href="https://www.github.com/svmatthews"><span class="icon icon-github"></span>svmatthews</a></li>
+		<li><a href="https://www.twitter.com/vancematthews"><span class="icon icon-twitter"></span>vancematthews</a></li>
+		<li><a href="https://www.linkedin.com/in/svmatthews"><span class="icon icon-linkedin"></span>svmatthews</a></li>
+		<li><a href="mailto:matthews.sam@gmail.com"><span class="icon icon-mail"></span>matthews.sam[at]gmail.com</a></li>
+	</ul>
+	<div class="cf"></div>
+	<hr>
+	{% for post in site.posts %}
+	<p class="post"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></p>
+	{% endfor %}
+	<hr>
+	<p class="boom">var mapsam = Infinity;</p>
+</div>
 {% include footer.html %}
