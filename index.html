@@ -18,9 +18,11 @@ weight: 1
 	<div class="cf"></div>
 	<hr>
 	<p><strong>Writing</strong></p>
+	<ul class="post-list">
 	{% for post in site.posts %}
-	<p class="post"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></p>
+		<li class="{% if post.title == page.title %}current{% endif %}"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
+	</ul>
 	<hr>
 	<p class="boom">var mapsam = Infinity;</p>
 </div>
