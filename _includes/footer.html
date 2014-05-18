@@ -1,4 +1,9 @@
 <footer>
+{% if page.title != 'Home' %}
+<hr>
+Sam Matthews &copy; {{ site.time | date: '%Y' }}<br>
+matthews.sam[at]gmail.com
+{% endif %}
 </footer>
 </div>
 <script src="/js/site.js"></script>

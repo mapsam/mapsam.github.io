@@ -4,7 +4,7 @@
 	  {% for p in site.pages %}
 	    {% if p.weight == weight %} <!-- weight is defined in your page front matter -->
 	      <li>
-	        <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+	        <a {% if p.url == page.url %}class="current"{% endif %} href="{{ p.url }}">
 	          {{ p.title }}
 	        </a>
 	      </li>

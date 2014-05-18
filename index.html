@@ -5,7 +5,7 @@ weight: 1
 
 {% include header.html %}
 <div class="home">
-	<div id="image" class="shift" ></div>
+	<div id="howdy"></div>
 	<p>I’m a Seattle-based designer working on websites, cartographic productions, and other digital curiosities. I'm the lead designer & co-founder of <a href="http://situatedlaboratories.com" class="sl">Situated Laboratories</a> and web developer at <a href="http://creativemediaalliance.com" class="goog">Creative Media Alliance</a>.</p>
 	<p>I take care of a <a href="http://giscollective.org" class="gisc">collaborative blog</a> and am also an assistant editor of a <a href="http://atlasofdesign.org" class="aod">design atlas</a>. This is my <a href="projects.php" class="proj">portfolio</a> and space for <a href="mugs/index.php" class="exp">experiments</a>.</p>
 	<hr>
@@ -17,6 +17,7 @@ weight: 1
 	</ul>
 	<div class="cf"></div>
 	<hr>
+	<p><strong>Writing</strong></p>
 	{% for post in site.posts %}
 	<p class="post"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></p>
 	{% endfor %}
