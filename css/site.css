@@ -9,6 +9,7 @@
     font-style: normal;
 }
 body { font-family: 'Lora', serif; }
+.home {	margin-top:20px; }
 .icon { 
 	font-family: 'icons' !important;
 	vertical-align: middle;
@@ -61,6 +62,23 @@ nav ul li a:hover { color:#222; }
 	-moz-background-size:cover;
 	-o-background-size:cover;
 }
+#howdy.party {
+	background:url(../assets/img/party.gif) center center;
+}
+#howdy:hover #themes {
+	opacity:1;
+}
+#themes {
+	opacity:0;
+	-webkit-transition: 0.2s;	-moz-transition: 0.2s; -ms-transition: 0.2s; -o-transition: 0.2s;	transition: 0.2s;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#themes li {
+	display:inline;
+	margin-right:10px;
+	cursor:pointer;
+}
+#themes li:hover { opacity:.7; }
 .connect li {
 	float:left;
 	width:45%;
@@ -100,6 +118,14 @@ article img {
 article p a {	border-bottom:1px solid #82b446; }
 article p a:hover {	border-bottom-width:2px; }
 hr { border-top:1px dashed #c0c0c0; }
+#starred li {
+	margin-bottom:.7em;
+}
+#starred .star-desc {
+	color:#999;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:.8em;
+}
 .boom,
 footer {
 	font-family:"Lucida Console", Monaco, monospace;
@@ -109,42 +135,11 @@ footer {
 }
 
 /* From Mapsam */
-
-#image {
-	display:block;
-	max-width:400px;
-	height:292px;
-	margin:auto;
-	border-bottom:solid #c0c0c0 1px;
-	overflow:hidden;
-	background-image:url(../assets/img/hello.png);
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-}
-.shift {
-	background-position:0px -292px;
-}
-.shift:hover {background-position:0px 0px;}
-
 .sl {color:#326295;}
 .goog {color:#F90101;}
 .aod {color:#000;}
 .gisc {color:#F1BB56;}
 .exp {color:#A6232F;}
 .proj {color:#3E68BB;}
-
-@media only screen and (max-width: 599px){
-	#image {
-		display:block;
-		width:100%;
-		height:292px;
-		margin:auto;
-		border-bottom:solid #c0c0c0 1px;
-		overflow:hidden;
-		background:url(../assets/img/hello.png) center bottom no-repeat;
-	}
-}
 
 
