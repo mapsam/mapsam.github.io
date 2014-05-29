@@ -62,12 +62,8 @@ nav ul li a:hover { color:#222; }
 	-moz-background-size:cover;
 	-o-background-size:cover;
 }
-#howdy.party {
-	background:url(../assets/img/party.gif) center center;
-}
-#howdy:hover #themes {
-	opacity:1;
-}
+#howdy.party { background:url(../assets/img/party.gif) center center; }
+#howdy:hover #themes { opacity:1; }
 #themes {
 	opacity:0;
 	-webkit-transition: 0.2s;	-moz-transition: 0.2s; -ms-transition: 0.2s; -o-transition: 0.2s;	transition: 0.2s;
@@ -124,9 +120,7 @@ article .highlight {
 	line-height:1em;
 }
 hr { border-top:1px dashed #c0c0c0; }
-#starred li {
-	margin-bottom:.7em;
-}
+#starred li { margin-bottom:.7em; }
 #starred .star-desc {
 	color:#999;
 	font-family:"Lucida Console", Monaco, monospace;

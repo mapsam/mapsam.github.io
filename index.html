@@ -23,9 +23,9 @@ extra_js: 'home.js'
 	</ul>
 	<div class="cf"></div>
 	<hr>
-	<p><strong>Writing</strong></p>
+	<p><strong>Recent Writing</strong></p>
 	<ul class="post-list">
-	{% for post in site.posts %}
+	{% for post in site.posts 0 limit: 3 %}
 		<li class="{% if post.title == page.title %}current{% endif %}"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>
