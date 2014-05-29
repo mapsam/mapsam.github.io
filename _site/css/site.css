@@ -117,6 +117,12 @@ article img {
 .post-list li.current { opacity:.5; }
 article p a {	border-bottom:1px solid #82b446; }
 article p a:hover {	border-bottom-width:2px; }
+article .highlight {
+	border-left:2px solid #b44682;
+	padding-left:10px;
+	margin-left:-10px;
+	line-height:1em;
+}
 hr { border-top:1px dashed #c0c0c0; }
 #starred li {
 	margin-bottom:.7em;
