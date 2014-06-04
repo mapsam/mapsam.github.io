@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<link rel="stylesheet" href="/css/site.css">
+	<link rel="stylesheet" href="/css/syntax.css">
+	<link rel="stylesheet" href="/css/first-letter.css">
+	
+	<title>mapsam</title>
+</head>
+<body>
+	<div class="container ">
+<nav>
+	<ul>
+	
+	  
+	     <!-- weight is defined in your page front matter -->
+	      <li>
+	        <a   href="/">
+	          Home
+	        </a>
+	      </li>
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	     <!-- weight is defined in your page front matter -->
+	      <li>
+	        <a  class="current" href="/posts/">
+	          Writing
+	        </a>
+	      </li>
+	    
+	  
+	
+	  
+	    
+	  
+	     <!-- weight is defined in your page front matter -->
+	      <li>
+	        <a   href="/links/">
+	          Links
+	        </a>
+	      </li>
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	  
+	    
+	  
+	    
+	  
+	    
+	  
+	
+	</ul>
+</nav>
+
+<article>
+	<h1>CSS :first-letter</h1>
+	<p class="date">June 03, 2014</p>
+	<p><p>I stumbled upon <a href="http://www.vox.com/a/internet-maps">an article</a> the other day that caught my eye. In particular - the usage of a CSS technique I had never seen before… <strong>::first-letter</strong>.</p>
+
+<p>Who knew!? I surely did not.</p>
+<!-- <blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p>How did I not know :first-letter existed? <a href="https://t.co/pUeh8JMIEi">https://t.co/pUeh8JMIEi</a></p>&mdash; Sam Matthews (@vancematthews) <a href="https://twitter.com/vancematthews/statuses/473975217941774336">June 3, 2014</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> --><div class='first'>
+To the east the outflung arm of the mountains marched to a sudden end, and far lands could be
+descried beyond them, wide and vague. To the south the Misty Mountains receded endlessly as far
+as sight could reach. Less than a mile away, and a little below them, for they still stood high up on the west side of the dale, there lay a mere. It was long and oval, shaped like a great spear-head thrust deep into the northern glen; but its southern end was beyond the shadows under the sunlit sky. Yet its waters were dark: a deep blue like clear evening sky seen from a lamp-lit room. Its face was still and unruffled. About it lay a smooth sward, shelving down on all sides to its bare unbroken rim.
+</div>
+<p>The pseudo selector is relatively straightforward, though you can find yourself in a world of hurt if you start trying to select the first paragraph element in a container. It’s best to try and pinpoint your first paragraph by a unique classname.</p>
+<div class='highlight'><pre><code class='css'><span class='nt'>p</span><span class='o'>:</span><span class='nd'>:first-letter</span> <span class='p'>{</span>
+  <span class='k'>font-size</span><span class='o'>:</span><span class='m'>5em</span><span class='p'>;</span>
+  <span class='k'>color</span><span class='o'>:</span><span class='nb'>steelblue</span><span class='p'>;</span>
+  <span class='k'>line-height</span><span class='o'>:</span><span class='m'>1</span><span class='p'>;</span>
+  <span class='k'>font-weight</span><span class='o'>:</span><span class='m'>900</span><span class='p'>;</span>
+  <span class='k'>margin</span><span class='o'>:</span><span class='m'>0</span> <span class='m'>.1em</span> <span class='m'>-.3em</span> <span class='m'>0</span><span class='p'>;</span>
+  <span class='k'>float</span><span class='o'>:</span><span class='k'>left</span><span class='p'>;</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>Below is how to select the first paragraph tag in a container and act on the first letter:</p>
+<div class='highlight'><pre><code class='css'><span class='nt'>p</span><span class='nd'>:first-child</span><span class='o'>:</span><span class='nd'>:first-letter</span> <span class='p'>{</span>
+  <span class='c'>/* stuffs */</span>
+<span class='p'>}</span>
+</code></pre></div>
+<p>You’re safe using the double colon ‘::’ as the selector if you are working in modern browsers. But the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter">Mozilla docs</a> say if you need IE8 or earlier support, use the single colon.</p></p>
+</article>
+<hr>
+<p><strong>More posts</strong></p>
+<ul class="post-list">
+
+	<li class="current"><span class="date">06.03, 2014</span><a href="/posts/first-letter-css">CSS :first-letter</a></li>
+
+	<li class=""><span class="date">05.27, 2014</span><a href="/posts/looping-geojson">Creating GeoJSON in client-side JS</a></li>
+
+	<li class=""><span class="date">05.08, 2013</span><a href="/posts/design-is-a-process">Design is a process</a></li>
+
+	<li class=""><span class="date">03.26, 2013</span><a href="/posts/cartography-path-or-profession">Cartography: Path or Profession?</a></li>
+
+	<li class=""><span class="date">10.23, 2012</span><a href="/posts/collaborative-cartography">A Collaborative Cartographic Age</a></li>
+
+	<li class=""><span class="date">10.11, 2012</span><a href="/posts/cartographers-dilema">The Cartographer's Dilema</a></li>
+
+</ul>
+
+<footer>
+
+<hr>
+Sam Matthews &copy; 2014<br>
+matthews.sam[at]gmail.com
+
+</footer>
+</div>
+
+</body>
+</html>
