@@ -118,14 +118,101 @@ article .highlight {
 	padding-left:10px;
 	margin-left:-10px;
 	line-height:1em;
+	overflow:auto;
 }
 hr { border-top:1px dashed #c0c0c0; }
-#starred li { margin-bottom:.7em; }
+#git ul {
+	float:left;
+	width:50%;
+}
+#starred li, 
+#git-recent li { margin-bottom:.7em; }
 #starred .star-desc {
 	color:#999;
 	font-family:"Lucida Console", Monaco, monospace;
 	font-size:.8em;
 }
+#git-recent {
+	margin:0;
+	padding:0;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#git-recent .meta {
+	font-size:.7em;
+	color:#999;
+}
+#git-recent .event {
+	padding:3px 5px;
+	color:#fff;
+	text-transform: uppercase;
+	border-radius:3px;
+	margin-right:10px;
+}
+#git-recent .pushdate {
+	margin-right:5px;
+}
+#git-recent .pushtime {
+	color:#c0c0c0;
+}
+.event.PushEvent { background-color:#6cc644; }
+.event.IssueCommentEvent { background-color:#d78066; }
+.event.CreateEvent { background-color:#6e5494; }
+.event.WatchEvent { background-color:#a898be; }
+.event.IssuesEvent { background-color:#bd2c00; }
+#git-recent li a {
+	font-family: 'Lora', serif;
+}
+#project-nav {
+	list-style-type: none;
+}
+#project-nav li {
+	float:left;
+	display:inline;
+	margin-right:10px;
+	padding:4px 10px;
+	border-radius:3px;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:.8em;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#project-nav li:hover {
+	opacity:.8;
+	cursor:pointer;
+}
+#maps {
+	color:#b44682;
+	border:1px solid #b44682;
+}
+#maps.active { background-color:#b44682; }
+#web {
+	color:#82b446;
+	border:1px solid #82b446;
+}
+#web.active { background-color:#82b446; }
+#design {
+	color:#4682B4;
+	border:1px solid #4682B4;
+}
+#design.active { background-color:#4682B4; }
+#all {
+	color:#c0c0c0;
+	border:1px solid #c0c0c0;
+}
+#all.active { background-color:#c0c0c0; }
+#project-nav li.active {
+	color:#fff;
+}
+
+.design { border-left:2px solid #4682B4;}
+.maps { border-left:2px solid #b44682;}
+.web { border-left:2px solid #82b446;}
+
+#projects li {
+	margin-bottom:30px;
+	padding-left:10px;
+}
+
 .boom,
 footer {
 	font-family:"Lucida Console", Monaco, monospace;
