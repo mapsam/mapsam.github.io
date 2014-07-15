@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in site.categories.posts %}
 	<li class="{% if post.title == page.title %}current{% endif %}"><span class="date">{{ post.date | date: "%Y, %m.%d" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

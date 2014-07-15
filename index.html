@@ -14,7 +14,7 @@ permalink: /
 		</ul>
 	</div>
 	<p>I’m a Seattle-based designer working on websites, cartographic productions, and other digital curiosities. I'm the lead designer & co-founder of <a href="http://situatedlaboratories.com" class="sl">Situated Laboratories</a> and web developer at <a href="http://creativemediaalliance.com" class="goog">Creative Media Alliance</a>.</p>
-	<p>I take care of a <a href="http://giscollective.org" class="gisc">collaborative blog</a> and am also an assistant editor of a <a href="http://atlasofdesign.org" class="aod">design atlas</a>. This is my <a href="projects.php" class="proj">portfolio</a> and space for <a href="mugs/index.php" class="exp">experiments</a>.</p>
+	<p>I take care of a <a href="http://giscollective.org" class="gisc">collaborative blog</a> and am also an assistant editor of a <a href="http://atlasofdesign.org" class="aod">design atlas</a>. This is my <a href="/projects" class="proj">portfolio</a> and space for <a href="https://github.com/svmatthews?tab=repositories" class="exp">experiments</a>.</p>
 	<hr>
 	<ul class="connect">
 		<li><a href="https://www.github.com/svmatthews"><span class="icon icon-github"></span>svmatthews</a></li>
@@ -26,7 +26,7 @@ permalink: /
 	<hr>
 	<p><strong>Recent Writing</strong></p>
 	<ul class="post-list">
-	{% for post in site.posts 0 limit: 3 %}
+	{% for post in site.categories.posts 0 limit: 3 %}
 		<li class="{% if post.title == page.title %}current{% endif %}"><span class="date">{{ post.date | date: "%m.%d, %Y" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 	</ul>

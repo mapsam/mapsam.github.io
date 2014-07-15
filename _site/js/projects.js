@@ -10,4 +10,17 @@ $(document).ready(function(){
       $('.project.'+type).show();
     }
   });
+
+  $('.expand').on('click', function(){
+    var text = $(this).text();
+    if(text==='more') {
+      $('.full').hide(200);
+      $('.expand').text('more');
+      $(this).text('less');
+      $(this).parent().next('.full').slideToggle(200);
+    } else {
+      $(this).parent().next('.full').slideToggle(200);
+      $(this).text('more');
+    }
+  });
 });

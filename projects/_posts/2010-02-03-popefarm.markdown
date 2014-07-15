@@ -2,7 +2,7 @@
 layout: project
 title: "Pope Farm Park Map"
 tags: 'maps'
-images: ['pope.png','Pope2.png']
+images: ['foss4g2014.png']
 ---
 
 The Pope Farm Park needed some new trail maps (different orientations depending on where you enter the park). The maps were required to be legible outdoors in all sorts of weather, so color was important to differentiate. The trails are relatively simple, but have a ton of different 'sites' along the way that were qualified and organized accordingly.

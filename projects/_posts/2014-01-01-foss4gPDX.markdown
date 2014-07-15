@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "FOSS4G 2014 Website"
-tags: 'design'
+tags: ['web', 'design']
 images: ['foss4g2014.png']
 ---
 

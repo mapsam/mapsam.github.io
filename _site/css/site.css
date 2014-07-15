@@ -203,13 +203,31 @@ hr { border-top:1px dashed #c0c0c0; }
 #project-nav li.active {
 	color:#fff;
 }
-/*#projects li .info {
-	max-height:200px;
-	overflow:hidden;
-}*/
+.expand {
+	background-color:transparent;
+	border:1px solid #999;
+	color:#999;
+	padding:3px 8px;
+	text-transform: uppercase;
+	font-weight:700;
+	opacity:.8;
+	outline:none;
+	width:50px;
+}
+.expand:hover {
+	opacity:1;
+	cursor:pointer;
+}
+.expand:active {
+	outline:none;
+}
 .info h2 {
 	margin:0 0 5px;
 	padding:0;
+	font-size:1.1em;
+}
+.info p {
+	margin:0 0 10px;
 }
 #projects li .info,
 #projects li .full {
@@ -218,16 +236,21 @@ hr { border-top:1px dashed #c0c0c0; }
 .design .info { border-left:2px solid #4682B4;}
 .maps .info { border-left:2px solid #b44682;}
 .web .info { border-left:2px solid #82b446;}
+.design .full { border-left:2px solid #b5cde1;}
+.maps .full { border-left:2px solid #e1b5cd;}
+.web .full { border-left:2px solid #cde1b5;}
 
 #projects li {
 	margin-top:30px;
 }
 #projects li .full {
 	display:none;
+	padding-top:10px;
 }
 #projects li .full img {
 	max-width:100%;
 	height:auto;
+	margin-bottom:10px;
 }
 
 .boom,

@@ -6,6 +6,7 @@
   -moz-background-size: cover; 
   -o-background-size: cover; 
   background-size: cover;
+  margin-bottom:20px;
 }
 #example1 .caption {
   padding:10px;
