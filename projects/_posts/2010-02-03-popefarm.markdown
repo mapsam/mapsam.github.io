@@ -3,7 +3,7 @@ layout: project
 title: "Pope Farm Park Map"
 tags: 'maps'
 images:
-  - pope1.png
+  - pope.png
   - Pope2.png
 ---
 
