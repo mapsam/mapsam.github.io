@@ -2,6 +2,10 @@
 layout: project
 title: "GISCollective"
 tags: 'maps'
+tools:
+  - WordPress
+  - d3
+  - QGIS
 ---
 
 The [Geographic Information Student Collective](http://giscollective.org/about/) (GISC) is an ongoing project focused on the compiling, learning, and teaching of mapping knowledge. Take a look at [our website and repository](http://giscollective.org) of GIS tutorials and tidbits.

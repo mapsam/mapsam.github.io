@@ -19,7 +19,11 @@ permalink: /
   {% for post in site.categories.projects %}
     <li class="project {% for tag in post.tags %}{{ tag }} {% endfor %}">
       <div class="info">
-        <h2>{{ post.title }}</h2>
+        <h2>{{ post.title }}
+        {% for tool in post.tools %}
+          <span class="tool">{{ tool }}</span>
+        {% endfor %}
+        </h2>
         {{ post.content }}{% capture extras %}{{ post.images | size }}{% endcapture %}
         {% if extras != '0' %}<button class="expand">more</button>{% endif %}
       </div>

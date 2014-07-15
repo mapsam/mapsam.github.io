@@ -3,6 +3,10 @@ layout: project
 title: "FOSS4G 2014 Website"
 tags: ['web', 'design']
 images: ['foss4g2014.png']
+tools:
+  - PHP (WordPress)
+  - LESS
+  - javascript
 ---
 
 I was presented the awesome opportunity to help out with the [2014 FOSS4G website](https://2014.foss4g.org) for the conference in Portland, OR. The project was completed over the course of many months with additions happening weekly.

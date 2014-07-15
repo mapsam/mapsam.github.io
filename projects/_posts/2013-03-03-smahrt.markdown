@@ -3,6 +3,10 @@ layout: project
 title: "Seattle Children's - SMAHRT Website"
 tags: ['web', 'maps']
 images: ['smahrt1.jpg', 'smahrt3.png']
+tools:
+  - WordPress
+  - JavaScript
+  - Leaflet
 ---
 
 The SMAHRTeam, Social Media and Adolescent Health Research Team, asked to have a [website](http://www.smahrtresearch.com/) put together that was made for doctors and parents alike. Designing a site for two audiences is a difficult task. The site focuses on simple navigation to information but also exploration of the information. Its design is professional and enjoyable. SMAHRT are great clients and I am still making updates to this website as they produce more publications and give more presentations.

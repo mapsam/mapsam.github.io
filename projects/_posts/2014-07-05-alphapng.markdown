@@ -1,0 +1,13 @@
+---
+layout: project
+title: "Alpha PNG"
+tags: 'web'
+images:
+  - alphapng1.png
+  - alphapng2.png
+tools:
+  - python (flask)
+  - javascript
+---
+
+[Alpha PNG](https://github.com/svmatthews/alpha-png) has been a fun project of mine devoted to learning about connecting python and the web. The project started with my frustration of constantly making little transparent pixels in photoshop for web backgrounds (since rgba() didn't work across all browsers). The application is built using flask and allows the user to specify HEX color value and Alpha value (transparency), which results in 1x1 pixel PNG image downloaded.

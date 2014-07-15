@@ -236,6 +236,16 @@ hr { border-top:1px dashed #c0c0c0; }
 	padding:0;
 	font-size:1.1em;
 }
+.tool {
+	font-size:.6em;
+	text-transform:uppercase;
+	color:#c0c0c0;
+	font-family:"Lucida Console", Monaco, monospace;
+	margin-left:10px;
+}
+.tool {
+	letter-spacing:-.1em;
+}
 .info p {
 	margin:0 0 10px;
 }
