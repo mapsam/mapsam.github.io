@@ -1,0 +1,8 @@
+---
+layout: project
+title: "Seattle Roadtrip Interactive Map"
+tags: 'maps web'
+images: ['risj_map5.png', 'risj_map8.png']
+---
+
+When I moved to Seattle I was able to make the move more of a vacation. I wanted to remember the route so I took my own coordinates on my phone and made sure to write down the events for each location. The [interactive map](http://www.mapsam.com/maps/roadtrip/) I built brings together my technical cartography skills, photography, and some simple aesthetic design.

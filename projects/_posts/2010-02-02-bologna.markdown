@@ -1,0 +1,8 @@
+---
+layout: project
+title: "Bologna Process Map"
+tags: 'maps'
+images: ['OldsBologna.png']
+---
+
+This was a quick project for a professor at the University of Wisconsin-Madison needing a map for lecture purposes. It speaks for itself I suppose. Learn about the [Bologna Process](http://en.wikipedia.org/wiki/Bologna_Process).

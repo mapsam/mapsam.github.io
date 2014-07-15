@@ -203,14 +203,31 @@ hr { border-top:1px dashed #c0c0c0; }
 #project-nav li.active {
 	color:#fff;
 }
-
-.design { border-left:2px solid #4682B4;}
-.maps { border-left:2px solid #b44682;}
-.web { border-left:2px solid #82b446;}
+/*#projects li .info {
+	max-height:200px;
+	overflow:hidden;
+}*/
+.info h2 {
+	margin:0 0 5px;
+	padding:0;
+}
+#projects li .info,
+#projects li .full {
+	padding-left:10px;
+}
+.design .info { border-left:2px solid #4682B4;}
+.maps .info { border-left:2px solid #b44682;}
+.web .info { border-left:2px solid #82b446;}
 
 #projects li {
-	margin-bottom:30px;
-	padding-left:10px;
+	margin-top:30px;
+}
+#projects li .full {
+	display:none;
+}
+#projects li .full img {
+	max-width:100%;
+	height:auto;
 }
 
 .boom,

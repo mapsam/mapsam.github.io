@@ -1,0 +1,8 @@
+---
+layout: project
+title: "Office of Quality Improvement Map"
+tags: 'maps'
+images: ['OQI.png']
+---
+
+The Office of Quality Improvement contacted the University Cartography Lab with a request for a map that effectively portrayed the spread of large-scale projects across the university. With little more than that request and locations, the map was concieved in-house and was more a project of data visualization than a map. Eventually the map was used in their annual print report.

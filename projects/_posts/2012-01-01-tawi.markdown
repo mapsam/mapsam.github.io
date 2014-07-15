@@ -1,0 +1,8 @@
+---
+layout: project
+title: "Tawi UW Branding"
+tags: 'design'
+images: ['tawi1.jpg', 'tawi2.jpg']
+---
+
+Tawi UW is a student organization in Madison, WI. Tawi, meaning 'branch' in Swahili, aims to provide students with travel oportunities to learn more about international development. I was asked to brand the organization with a logo. here's some of their swag. Check them out on [twitter](https://twitter.com/TawiUW) and [facebook](https://www.facebook.com/tawiuw). EDIT - I've since developed a [website](http://www.tawiinc.org) for them as well!
