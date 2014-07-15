@@ -10,6 +10,9 @@
 }
 body { font-family: 'Lora', serif; }
 .home {	margin-top:20px; }
+.home p em {
+	border-bottom:1px solid #b44682;
+}
 .icon { 
 	font-family: 'icons' !important;
 	vertical-align: middle;
@@ -59,6 +62,12 @@ nav ul li a:hover { color:#222; }
 	background:url(../assets/img/hello.png) bottom center;
 	border-bottom:1px solid #b44682;
 }
+@media (max-width: 480px) { 
+	#howdy {
+		background-position:top center;
+		width:100%;
+	}
+}
 #howdy:hover { background-position:top center; }
 #themes {
 	opacity:0;
@@ -107,8 +116,13 @@ article img {
 }
 .post-list li a:hover { opacity:.5; }
 .post-list li.current { opacity:.5; }
-article p a {	border-bottom:1px solid #82b446; }
-article p a:hover {	border-bottom-width:2px; }
+article p a,
+#projects li .info a {	border-bottom:1px dashed #82b446; }
+article p a:hover,
+#projects li .info a:hover {	
+	border-bottom-style:solid;
+	background-color:#e5e5e5;
+}
 article .highlight {
 	border-left:2px solid #b44682;
 	padding-left:10px;
