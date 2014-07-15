@@ -53,17 +53,13 @@ nav ul li a.current {
 }
 nav ul li a:hover { color:#222; }
 #howdy {
-	height:300px;
-	border-radius:10px;
+	height:292px;
+	width:400px;
 	overflow:hidden;
-	background:url(../assets/img/howdy.jpg) center center;
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
+	background:url(../assets/img/hello.png) bottom center;
+	border-bottom:1px solid #b44682;
 }
-#howdy.party { background:url(../assets/img/party.gif) center center; }
-#howdy:hover #themes { opacity:1; }
+#howdy:hover { background-position:top center; }
 #themes {
 	opacity:0;
 	-webkit-transition: 0.2s;	-moz-transition: 0.2s; -ms-transition: 0.2s; -o-transition: 0.2s;	transition: 0.2s;
