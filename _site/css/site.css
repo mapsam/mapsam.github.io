@@ -130,6 +130,22 @@ article .highlight {
 	line-height:1em;
 	overflow:auto;
 }
+article .highlight pre {
+	margin:.5em 0;
+}
+article ol,
+article ul {
+	margin-left:20px;
+	margin-bottom:1em;
+}
+article li {
+	list-style: disc;
+}
+article p span {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:.8em;
+	color:#999;
+}
 hr { border-top:1px dashed #c0c0c0; }
 #git ul {
 	float:left;
