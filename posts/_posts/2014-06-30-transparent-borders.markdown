@@ -4,7 +4,7 @@ title: "Transparent Borders"
 extra_css: "transparent-borders.css"
 ---
 
-Here's a teeny, awesome little design touch I've been into lately. It fakes out a border with the CSS *box-shadow* class but removes the spread and uses *rgba()*.
+Here's a teeny, awesome little design touch I've been into lately. It fakes out a border with the CSS <span>box-shadow</span> class but removes the spread and uses <span>rgba()</span>.
 
 <div id="example1">
   <div class="image">

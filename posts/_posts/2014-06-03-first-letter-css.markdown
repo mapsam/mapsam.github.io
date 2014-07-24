@@ -4,7 +4,7 @@ title: "CSS :first-letter"
 extra_css: "first-letter.css"
 ---
 
-I stumbled upon [an article](http://www.vox.com/a/internet-maps) the other day that caught my eye. In particular - the usage of a CSS technique I had never seen before... **::first-letter**.
+I stumbled upon [an article](http://www.vox.com/a/internet-maps) the other day that caught my eye. In particular - the usage of a CSS technique I had never seen before... <span>::first-letter</span>.
 
 Who knew!? I surely did not.
 
@@ -39,5 +39,5 @@ p:first-child::first-letter {
 }
 {% endhighlight %}
 
-You're safe using the double colon '::' as the selector if you are working in modern browsers. But the [Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter) say if you need IE8 or earlier support, use the single colon.
+You're safe using the double colon <span>::</span> as the selector if you are working in modern browsers. But the [Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter) say if you need IE8 or earlier support, use the single colon.
 

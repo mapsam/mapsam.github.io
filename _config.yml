@@ -16,3 +16,6 @@ permalink: /posts/:title
 
 # auto
 auto: true
+
+# markdown engine
+markdown: kramdown
