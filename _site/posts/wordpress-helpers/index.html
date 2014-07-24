@@ -159,27 +159,38 @@
 	<p class="date">June 05, 2014</p>
 	<p><p>The following are scripts and settings that I typically use when working in WordPress. They are here for me to reuse, but please feel free to use yourself!</p>
 
-<h3 id="category_permalinks">Category Permalinks</h3>
-<div class='highlight'><pre><code class='html'>http://example.com/%category%/%postname%/
+<h3 id="category-permalinks">Category Permalinks</h3>
+
+<div class="highlight"><pre><code class="html">http://example.com/%category%/%postname%/
 </code></pre></div>
-<h3 id="featured_image_url">Featured Image URL</h3>
+
+<h3 id="featured-image-url">Featured Image URL</h3>
 
 <p>Get it</p>
-<div class='highlight'><pre><code class='php'><span class='x'>$img = wp_get_attachment_image_src( get_post_thumbnail_id($post-&gt;ID), &#39;single-page-thumbnail&#39;);</span>
+
+<div class="highlight"><pre><code class="php"><span class="x">$img = wp_get_attachment_image_src( get_post_thumbnail_id($post-&gt;ID), &#39;single-page-thumbnail&#39;);</span>
 </code></pre></div>
+
 <p>Use it <strong>php</strong></p>
-<div class='highlight'><pre><code class='php'><span class='cp'>&lt;?php</span>
-<span class='k'>echo</span> <span class='s1'>&#39;&lt;div class=&quot;post-featured-image&quot; style=&quot;background-image:url(&#39;</span><span class='o'>.</span><span class='nv'>$img</span><span class='p'>[</span><span class='mi'>0</span><span class='p'>]</span><span class='o'>.</span><span class='s1'>&#39;);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;</span><span class='o'>.</span><span class='nv'>$img</span><span class='p'>[</span><span class='mi'>0</span><span class='p'>]</span><span class='o'>.</span><span class='s1'>&#39;, sizingMethod=&quot;scale&quot;);-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;</span><span class='o'>.</span><span class='nv'>$img</span><span class='p'>[</span><span class='mi'>0</span><span class='p'>]</span><span class='o'>.</span><span class='s1'>&#39;, sizingMethod=&quot;scale&quot;);&quot;&gt;&lt;/div&gt;&#39;</span>
-<span class='cp'>?&gt;</span><span class='x' />
+
+<div class="highlight"><pre><code class="php"><span class="cp">&lt;?php</span>
+<span class="k">echo</span> <span class="s1">&#39;&lt;div class=&quot;post-featured-image&quot; style=&quot;background-image:url(&#39;</span><span class="o">.</span><span class="nv">$img</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;</span><span class="o">.</span><span class="nv">$img</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;, sizingMethod=&quot;scale&quot;);-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&#39;</span><span class="o">.</span><span class="nv">$img</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="s1">&#39;, sizingMethod=&quot;scale&quot;);&quot;&gt;&lt;/div&gt;&#39;</span>
+<span class="cp">?&gt;</span><span class="x"></span>
 </code></pre></div>
+
 <p>Use it <strong>HTML</strong></p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;div</span> <span class='na'>class=</span><span class='s'>&quot;post-featured-image&quot;</span> <span class='na'>style=</span><span class='s'>&quot;background-image:url(&lt;?php echo $img[0] ?&gt;);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&lt;?php echo $img[0] ?&gt;, sizingMethod=&quot;</span><span class='na'>scale</span><span class='err'>&quot;);</span><span class='na'>-ms-filter:</span> <span class='na'>progid:DXImageTransform</span><span class='err'>.</span><span class='na'>Microsoft</span><span class='err'>.</span><span class='na'>AlphaImageLoader</span><span class='err'>(</span><span class='na'>src=</span><span class='s'>&lt;?php</span> <span class='na'>echo</span> <span class='err'>$</span><span class='na'>img</span><span class='err'>[</span><span class='na'>0</span><span class='err'>]</span> <span class='err'>?</span><span class='nt'>&gt;</span>, sizingMethod=&quot;scale&quot;);&quot;&gt;<span class='nt'>&lt;/div&gt;</span>
+
+<div class="highlight"><pre><code class="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;post-featured-image&quot;</span> <span class="na">style=</span><span class="s">&quot;background-image:url(&lt;?php echo $img[0] ?&gt;);filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=&lt;?php echo $img[0] ?&gt;, sizingMethod=&quot;</span><span class="na">scale</span><span class="err">&quot;);</span><span class="na">-ms-filter:</span> <span class="na">progid:DXImageTransform</span><span class="err">.</span><span class="na">Microsoft</span><span class="err">.</span><span class="na">AlphaImageLoader</span><span class="err">(</span><span class="na">src=</span><span class="s">&lt;?php</span> <span class="na">echo</span> <span class="err">$</span><span class="na">img</span><span class="err">[</span><span class="na">0</span><span class="err">]</span> <span class="err">?</span><span class="nt">&gt;</span>, sizingMethod=&quot;scale&quot;);&quot;&gt;<span class="nt">&lt;/div&gt;</span>
 </code></pre></div>
-<p>waka</p></p>
+
+<p>waka</p>
+</p>
 </article>
 <hr>
 <p><strong>More posts</strong></p>
 <ul class="post-list">
+
+	<li class=""><span class="date">07.23, 2014</span><a href="/posts/responsive-youtube-embeds">Responsive YouTube Embeds</a></li>
 
 	<li class=""><span class="date">07.16, 2014</span><a href="/posts/url-via-javascript">Retrieve site URL via JS</a></li>
 

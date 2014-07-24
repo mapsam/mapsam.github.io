@@ -7,11 +7,10 @@ extra_css: "transparent-borders.css"
 Here's a teeny, awesome little design touch I've been into lately. It fakes out a border with the CSS *box-shadow* class but removes the spread and uses *rgba()*.
 
 <div id="example1">
-
-  <div class="image"></div>
-
-  <div class="caption">
+  <div class="image">
+    <div class="caption">
     The Golden Gate Bridge
+    </div>
   </div>
 </div>
 
