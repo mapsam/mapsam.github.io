@@ -19,3 +19,6 @@ auto: true
 
 # markdown engine
 markdown: kramdown
+
+#opt back in to relative permalinks - was set to opt out in jekyll 2.0
+relative_permalinks: true
