@@ -1,0 +1,19 @@
+#dash path {
+  stroke:#b44682;
+  stroke-width:5px;
+}
+#animate {
+  text-transform:uppercase;
+  cursor:pointer;
+  padding:5px 10px;
+  border:1px solid #b44682;
+  color:#b44682;
+  font-family:"Lucida Console", Monaco, monospace;
+  font-size:.8em;
+  display:inline-block;
+  clear:both;
+}
+#animate:hover {
+  background-color:#b44682;
+  color:#fff;
+}

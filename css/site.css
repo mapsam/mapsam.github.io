@@ -116,11 +116,8 @@ article img {
 }
 .post-list li a:hover { opacity:.5; }
 .post-list li.current { opacity:.5; }
-article p a,
-#projects li .info a {	border-bottom:1px dashed #82b446; }
 article p a:hover,
 #projects li .info a:hover {	
-	border-bottom-style:solid;
 	background-color:#e5e5e5;
 }
 article .highlight {
@@ -259,16 +256,10 @@ hr { border-top:1px dashed #c0c0c0; }
 	font-family:"Lucida Console", Monaco, monospace;
 	margin-left:10px;
 }
-.tool {
-	letter-spacing:-.1em;
-}
-.info p {
-	margin:0 0 10px;
-}
+.tool { letter-spacing:-.1em; }
+.info p { margin:0 0 10px; }
 #projects li .info,
-#projects li .full {
-	padding-left:10px;
-}
+#projects li .full { padding-left:10px; }
 .design .info { border-left:2px solid #4682B4;}
 .maps .info { border-left:2px solid #b44682;}
 .web .info { border-left:2px solid #82b446;}
@@ -276,9 +267,7 @@ hr { border-top:1px dashed #c0c0c0; }
 .maps .full { border-left:2px solid #e1b5cd;}
 .web .full { border-left:2px solid #cde1b5;}
 
-#projects li {
-	margin-top:30px;
-}
+#projects li { margin-top:30px; }
 #projects li .full {
 	display:none;
 	padding-top:10px;
