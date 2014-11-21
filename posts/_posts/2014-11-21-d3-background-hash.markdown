@@ -13,7 +13,7 @@ A particular way to showcase *no data* is using a grayscale color or a **pattern
 
 SVG allows for some really interesting linking between styles and elements. Since the language is XML-based, we can reference IDs of defined styles to use in our SVG elements.
 
-In D3, we can create these re-usable patterns with the standard `.append()` functions and your `svg` object you'll be working with.
+In D3, we can create these re-usable patterns with the standard `.append()` functions and your `svg` object you'll be working with. *(big shoutout to Lars Katthoff on [Stackoverflow](http://stackoverflow.com/questions/17568858/simple-hash-pattern-svg-in-d3js) for sharing this technique)*
 
 **Create the pattern style**
 
