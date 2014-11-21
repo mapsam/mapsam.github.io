@@ -3,7 +3,7 @@ layout: post
 title: "D3 Background Hash Patterns"
 ---
 
-D3 is one of my favorite mapping tools, largely because it makes me still feel like a cartographer in a land where markers and map tiles reign on the web (though you can make beautiful cartography in map tiles as well!). It reminds me of creating static maps in Illustrator and having control over the exact styles visible to the viewer. One important style to work with in any cartographic product is the concept of styling **no data** - or, the absense of data from the map, which can be just as important as the data itself (*or themselves*).
+D3 is one of my favorite mapping tools, largely because it makes me still feel like a cartographer in a land where markers and map tiles reign supreme (though you can find beautiful cartography in map tiles as well!). It reminds me of creating static maps in Illustrator and having control over the exact styles visible to the viewer. One important style to work with in any cartographic product is the concept of styling **no data** - or, the absense of data from the map, which can be just as important as the data itself (*or themselves*).
 
 A particular way to showcase *no data* is using a grayscale color or a **pattern** that is completely separate from the styles used in the presense of data. In D3 or, rather, SVG, this can be a troublesome task; designing patterns for elements of varying shapes and sizes.
 
@@ -61,5 +61,7 @@ And voila! You will see some sweet hashing taking effect. One cool thing with SV
 To extend it further, you can define multiple patterns based on your data and essentially set them to create a density style map, the difference being the space between your hash lines.
 
 <iframe src="http://broadstreetmaps.giscollective.org/d3hash-example2" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe>
+
+As noted by Andy Woodruff, you can 
 
 D3 is fun!
