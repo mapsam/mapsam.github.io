@@ -62,6 +62,4 @@ To extend it further, you can define multiple patterns based on your data and es
 
 <iframe src="http://broadstreetmaps.giscollective.org/d3hash-example2" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe>
 
-As noted by Andy Woodruff, you can 
-
 D3 is fun!
