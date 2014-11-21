@@ -155,9 +155,9 @@
 </nav>
 
 <article>
-	<h1>CSS :first-letter</h1>
+	<h1 class="title">CSS :first-letter</h1>
 	<p class="date">June 03, 2014</p>
-	<p><p>I stumbled upon <a href="http://www.vox.com/a/internet-maps">an article</a> the other day that caught my eye. In particular - the usage of a CSS technique I had never seen before&#8230; <span>::first-letter</span>.</p>
+	<p><p>I stumbled upon <a href="http://www.vox.com/a/internet-maps">an article</a> the other day that caught my eye. In particular - the usage of a CSS technique I had never seen before... <span>::first-letter</span>.</p>
 
 <p>Who knew!? I surely did not.</p>
 
@@ -170,32 +170,31 @@ descried beyond them, wide and vague. To the south the Misty Mountains receded e
 as sight could reach. Less than a mile away, and a little below them, for they still stood high up on the west side of the dale, there lay a mere. It was long and oval, shaped like a great spear-head thrust deep into the northern glen; but its southern end was beyond the shadows under the sunlit sky. Yet its waters were dark: a deep blue like clear evening sky seen from a lamp-lit room. Its face was still and unruffled. About it lay a smooth sward, shelving down on all sides to its bare unbroken rim.
 </div>
 
-<p>The pseudo selector is relatively straightforward, though you can find yourself in a world of hurt if you start trying to select the first paragraph element in a container. It&#8217;s best to try and pinpoint your first paragraph by a unique classname.</p>
+<p>The pseudo selector is relatively straightforward, though you can find yourself in a world of hurt if you start trying to select the first paragraph element in a container. It&#39;s best to try and pinpoint your first paragraph by a unique classname.</p>
 
-<div class="highlight"><pre><code class="css"><span class="nt">p</span><span class="o">:</span><span class="nd">:first-letter</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span><span class="o">:</span><span class="nd">:first-letter</span> <span class="p">{</span>
   <span class="k">font-size</span><span class="o">:</span><span class="m">5em</span><span class="p">;</span>
   <span class="k">color</span><span class="o">:</span><span class="nb">steelblue</span><span class="p">;</span>
   <span class="k">line-height</span><span class="o">:</span><span class="m">1</span><span class="p">;</span>
   <span class="k">font-weight</span><span class="o">:</span><span class="m">900</span><span class="p">;</span>
   <span class="k">margin</span><span class="o">:</span><span class="m">0</span> <span class="m">.1em</span> <span class="m">-.3em</span> <span class="m">0</span><span class="p">;</span>
   <span class="k">float</span><span class="o">:</span><span class="k">left</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div>
+<span class="p">}</span></code></pre></div>
 
 <p>Below is how to select the first paragraph tag in a container and act on the first letter:</p>
 
-<div class="highlight"><pre><code class="css"><span class="nt">p</span><span class="nd">:first-child</span><span class="o">:</span><span class="nd">:first-letter</span> <span class="p">{</span>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nt">p</span><span class="nd">:first-child</span><span class="o">:</span><span class="nd">:first-letter</span> <span class="p">{</span>
   <span class="c">/* stuffs */</span>
-<span class="p">}</span>
-</code></pre></div>
+<span class="p">}</span></code></pre></div>
 
-<p>You&#8217;re safe using the double colon <span>::</span> as the selector if you are working in modern browsers. But the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter">Mozilla docs</a> say if you need IE8 or earlier support, use the single colon.</p>
-
+<p>You&#39;re safe using the double colon <span>::</span> as the selector if you are working in modern browsers. But the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter">Mozilla docs</a> say if you need IE8 or earlier support, use the single colon.</p>
 </p>
 </article>
 <hr>
 <p><strong>More posts</strong></p>
 <ul class="post-list">
+
+	<li class=""><span class="date">11.21, 2014</span><a href="/posts/d3-background-hash">D3 Background Hash Patterns</a></li>
 
 	<li class=""><span class="date">10.17, 2014</span><a href="/posts/animated-anchor-hash">Animating Page Scroll with Anchor Hash</a></li>
 

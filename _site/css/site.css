@@ -108,6 +108,12 @@ article img {
 	height:auto;
 }
 .post-list li { margin-bottom:.8em; }
+.title {
+	font-size:3em;
+	text-align:left;
+	line-height:1.1em;
+	margin:1em 0 0;
+}
 .date {
 	font-family:"Lucida Console", Monaco, monospace;
 	color:#999;
@@ -138,7 +144,8 @@ article ul {
 article li {
 	list-style: disc;
 }
-article p span {
+article p span,
+article p code {
 	font-family:"Lucida Console", Monaco, monospace;
 	font-size:.8em;
 	color:#999;

@@ -155,11 +155,11 @@
 </nav>
 
 <article>
-	<h1>Creating GeoJSON in client-side JS</h1>
+	<h1 class="title">Creating GeoJSON in client-side JS</h1>
 	<p class="date">May 27, 2014</p>
 	<p><p>Often times I find myself with spatial data in non-spatial formats. Equally as often, those data cannot be permanently changed into a spatial format since they are being continually updated in their original format by someone else. Rendering spatial data requires GeoJSON. GeoJSON is derived from JSON (JavaScript Object Notation) and adds a spatial key/value pair into the mix. The data type has a required format, which can be found at <a href="http://geojson.org">geojson.org</a> and seen below:</p>
 
-<div class="highlight"><pre><code class="javascript"><span class="p">{</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="p">{</span>
   <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;Feature&quot;</span><span class="p">,</span>
   <span class="s2">&quot;geometry&quot;</span><span class="o">:</span> <span class="p">{</span>
     <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;Point&quot;</span><span class="p">,</span>
@@ -168,14 +168,13 @@
   <span class="s2">&quot;properties&quot;</span><span class="o">:</span> <span class="p">{</span>
     <span class="s2">&quot;name&quot;</span><span class="o">:</span> <span class="s2">&quot;Dinagat Islands&quot;</span>
   <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
+<span class="p">}</span></code></pre></div>
 
-<p>It&#8217;s effectively a javascript object with a standardized format, including <strong>type</strong>, <strong>geometry</strong>, and any number of <strong>properties</strong> (metadata). Much of the time I&#8217;m able to convert the data on the client side into a useable geojson format, which can then be mapped. The loop structure is consistent, but how I obtain the data can vary (ajax, jQuery, php, etc.). The use case for this loop is extremely app-specific, so it may not be the thing you need. I just tend to use it a lot for development purposes.</p>
+<p>It&#39;s effectively a javascript object with a standardized format, including <strong>type</strong>, <strong>geometry</strong>, and any number of <strong>properties</strong> (metadata). Much of the time I&#39;m able to convert the data on the client side into a useable geojson format, which can then be mapped. The loop structure is consistent, but how I obtain the data can vary (ajax, jQuery, php, etc.). The use case for this loop is extremely app-specific, so it may not be the thing you need. I just tend to use it a lot for development purposes.</p>
 
-<h3 id="basic-loop">Basic Loop</h3>
+<h3>Basic Loop</h3>
 
-<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">geojson</span> <span class="o">=</span> <span class="p">{};</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">geojson</span> <span class="o">=</span> <span class="p">{};</span>
 <span class="nx">geojson</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;FeatureCollection&#39;</span><span class="p">;</span>
 <span class="nx">geojson</span><span class="p">[</span><span class="s1">&#39;features&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[];</span>
  
@@ -192,23 +191,22 @@
     <span class="p">}</span>
   <span class="p">}</span>
   <span class="nx">geojson</span><span class="p">[</span><span class="s1">&#39;features&#39;</span><span class="p">].</span><span class="nx">push</span><span class="p">(</span><span class="nx">newFeature</span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
+<span class="p">}</span></code></pre></div>
 
-<h3 id="tabletopjs">Tabletop.js</h3>
+<h3>Tabletop.js</h3>
 
-<p>Typically I see data come in .csv formats, which is great for keeping things under control and organized - but difficult for the browser. Lately I&#8217;ve seen most .csv on Google Spreadsheets - which can work to our benefit. </p>
+<p>Typically I see data come in .csv formats, which is great for keeping things under control and organized - but difficult for the browser. Lately I&#39;ve seen most .csv on Google Spreadsheets - which can work to our benefit. </p>
 
 <p>Introducing <a href="https://github.com/jsoma/tabletop">tabletop.js</a>, a slick javascript library that grabs data from Google Spreadsheets and returns a data object for you to manipulate. Two things need to happen here:</p>
 
 <ol>
-  <li>Tabletop makes a call to the Spreadsheets API and returns a nice JSON object</li>
-  <li>You loop through that returned data JSON object and create a new GeoJSON object</li>
+<li>Tabletop makes a call to the Spreadsheets API and returns a nice JSON object</li>
+<li>You loop through that returned data JSON object and create a new GeoJSON object</li>
 </ol>
 
 <p>Things start to get redundant, but for development and a reasonable number of points this works out great.</p>
 
-<div class="highlight"><pre><code class="javascript"><span class="kd">var</span> <span class="nx">geojson</span> <span class="o">=</span> <span class="p">{};</span>
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">geojson</span> <span class="o">=</span> <span class="p">{};</span>
 <span class="nx">geojson</span><span class="p">[</span><span class="s1">&#39;type&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;FeatureCollection&#39;</span><span class="p">;</span>
 <span class="nx">geojson</span><span class="p">[</span><span class="s1">&#39;features&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[];</span>
 
@@ -239,13 +237,14 @@
     <span class="nx">mapIt</span><span class="p">(</span><span class="nx">geojson</span><span class="p">);</span>
   <span class="p">},</span>
   <span class="nx">simpleSheet</span><span class="o">:</span> <span class="kc">true</span>
-<span class="p">});</span>
-</code></pre></div>
+<span class="p">});</span></code></pre></div>
 </p>
 </article>
 <hr>
 <p><strong>More posts</strong></p>
 <ul class="post-list">
+
+	<li class=""><span class="date">11.21, 2014</span><a href="/posts/d3-background-hash">D3 Background Hash Patterns</a></li>
 
 	<li class=""><span class="date">10.17, 2014</span><a href="/posts/animated-anchor-hash">Animating Page Scroll with Anchor Hash</a></li>
 
