@@ -10,6 +10,9 @@
 }
 body { font-family: 'Lora', serif; }
 .home {	margin-top:20px; }
+.home p {
+	line-height: 1.5em;
+}
 .home p em {
 	border-bottom:1px solid #b44682;
 }
@@ -295,7 +298,7 @@ footer {
 
 /* From Mapsam */
 .sl {color:#326295;}
-.goog {color:#F90101;}
+.cfa {color:#F90101;}
 .aod {color:#000;}
 .gisc {color:#F1BB56;}
 .exp {color:#A6232F;}
