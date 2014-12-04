@@ -2,7 +2,7 @@
 	<ul>
 	{% for weight in (1..10) %}
 	  {% for p in site.pages %}
-	    {% if p.weight == weight %} <!-- weight is defined in your page front matter -->
+	    {% if p.weight == weight %}
 	      <li>
 	        <a {% if p.url == page.url %}class="current"{% endif %} {% if page.date %}{% if p.title == 'Writing' %}class="current"{% endif %}{% endif %} href="{{ p.url }}">
 	          {{ p.title }}
