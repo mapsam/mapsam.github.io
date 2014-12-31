@@ -14,9 +14,8 @@ $(document).ready(function(){
 			var month = datestring.getMonth();
 			var year = datestring.getFullYear();
 			var time = datestring.getHours() + ':' + datestring.getMinutes();
-			console.log(datestring);
 			var name = d[k].type.replace('Event', '');
-			recentList.innerHTML += '<li><span class="meta"><span class="event '+d[k].type+'">'+name+'</span><span class="pushdate">'+year+'-'+month+'-'+day+'-</span><span class="pushtime">'+time+'</span></span><br><a href="'+d[k].repo.url+'" target="_blank">'+d[k].repo.name+'</a></li>';
+			recentList.innerHTML += '<li><span class="meta"><span class="event '+d[k].type+'">'+name+'</span><span class="pushdate">'+year+'-'+month+'-'+day+'-</span><span class="pushtime">'+time+'</span></span><br><a href="http://github.com/'+d[k].repo.name+'" target="_blank">'+d[k].repo.name+'</a></li>';
 		});
 	});
 });
