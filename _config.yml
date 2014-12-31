@@ -9,13 +9,10 @@ port:  4000
 encoding: utf-8
 
 # include Pygments for syntax highlighting
-pygments: true
+highlighter: pygments
 
 # permalinks
 permalink: /posts/:title
-
-# auto
-auto: true
 
 # markdown engine
 markdown: redcarpet 
