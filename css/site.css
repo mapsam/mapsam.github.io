@@ -129,6 +129,10 @@ article p a:hover,
 #projects li .info a:hover {	
 	background-color:#e5e5e5;
 }
+
+/* center twitter embeds */
+.twitter-tweet { margin:10px auto !important; }
+
 article .highlight {
 	border-left:2px solid #b44682;
 	padding-left:10px;
