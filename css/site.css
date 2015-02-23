@@ -8,101 +8,74 @@
     font-weight: normal;
     font-style: normal;
 }
-body { font-family: 'Lora', serif; }
-.home {	margin-top:20px; }
-.home p {
+.cf:before,.cf:after{content:" ";display:table;}.cf:after{clear:both;}.cf{*zoom:1;}
+
+/*
+** GLOBALS
+*/
+body {
+	font-family: 'Arvo', serif;
+	max-width:50em;
+	margin:1em auto;
+	padding:0 2em;
 	line-height: 1.5em;
+	overflow-x:hidden;
 }
-.home p em {
-	border-bottom:1px solid #b44682;
+p {
+	color:#444;
 }
-.icon { 
-	font-family: 'icons' !important;
-	vertical-align: middle;
-	margin-right:10px;
-	font-size:1.1em;
+article > p {	max-width:650px; }
+article > p img {	max-width:50em; }
+@media (max-width: 50em) {
+	article > p img {	max-width:100%; }
 }
-.icon-github:before { content: "Q"; }
-.icon-twitter:before { content: "a"; }
-.icon-linkedin:before { content: "j"; }
-.icon-mail:before { content: "U"; }
 a {	
 	text-decoration:none;
-	color:#82b446;
+	color:steelblue;
 }
-ul {
+article a:hover {
+	color:#f6f6f6;
+	background-color:steelblue;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+ul { 
 	list-style-type: none;
-	padding:0;
 	margin:0;
+	padding:0;
 }
-.cf:before,.cf:after{content:" ";display:table;}.cf:after{clear:both;}.cf{*zoom:1;}
-.container {
-	display:block;
-	margin:auto;
-	max-width:600px;
+
+/*
+** NAVIGATION
+*/
+nav {
+	margin-bottom:4em;
 }
-.container.home {	max-width:400px; }
 nav ul li {	
 	margin-right:10px;
 	display:inline-block;
 }
 nav ul li a {	
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	color:#c0c0c0;
-	padding:5px;
-	font-size:.8em;
-	border-bottom:2px solid #e5e5e5;
+	letter-spacing:.2em;
+	font-size:.7em;
+	text-transform:uppercase;
 }
 nav ul li a.current { 
 	color:#b44682;
-	border-bottom-color:#b44682;
 }
 nav ul li a:hover { color:#222; }
-#howdy {
-	height:292px;
-	width:400px;
-	overflow:hidden;
-	background:url(../assets/img/hello.png) bottom center;
-	border-bottom:1px solid #b44682;
-}
-@media (max-width: 480px) { 
-	#howdy {
-		background-position:top center;
-		width:100%;
-	}
-}
-#howdy:hover { background-position:top center; }
-#themes {
-	opacity:0;
-	-webkit-transition: 0.2s;	-moz-transition: 0.2s; -ms-transition: 0.2s; -o-transition: 0.2s;	transition: 0.2s;
-	font-family:"Lucida Console", Monaco, monospace;
-}
-#themes li {
-	display:inline;
-	margin-right:10px;
-	cursor:pointer;
-}
-#themes li:hover { opacity:.7; }
-.connect li {
-	float:left;
-	width:40%;
-	box-sizing:border-box;  
-	-moz-box-sizing:border-box; 
-	-webkit-box-sizing:border-box;
-	padding:10px;
-	font-size:.8em;
-}
-.connect li a {
-	font-family:"Lucida Console", Monaco, monospace;
-	color:#b44682;
-	opacity:.9;
-	font-size:.9em;
-}
-.connect li a:hover { opacity:1; }
+@media (max-width: 480px) {}
+
+/*
+** POST
+*/
 article {
 	color:#444;
 	line-height:1.6em;
-	text-align:justify;
 }
 article img {
 	display:block;
@@ -110,54 +83,55 @@ article img {
 	max-width:100%;
 	height:auto;
 }
-.post-list li { margin-bottom:.8em; }
 .title {
 	font-size:3em;
 	text-align:left;
 	line-height:1.1em;
-	margin:1em 0 0;
+	margin:.5em 0 0;
 }
 .date {
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	color:#999;
 	font-size:.75em;
-	margin-right:10px;
 }
-.post-list li a:hover { opacity:.5; }
-.post-list li.current { opacity:.5; }
-article p a:hover,
-#projects li .info a:hover {	
-	background-color:#e5e5e5;
-}
-
 /* center twitter embeds */
-.twitter-tweet { margin:10px auto !important; }
-
+.twitter-tweet { margin:10px !important; }
 article .highlight {
-	border-left:2px solid #b44682;
 	padding-left:10px;
 	margin-left:-10px;
 	line-height:1em;
 	overflow:auto;
+	background-color:#f6f6f6;
 }
 article .highlight pre {
 	margin:.5em 0;
 }
-article ol,
-article ul {
-	margin-left:20px;
-	margin-bottom:1em;
-}
-article li {
-	list-style: disc;
-}
 article p span,
 article p code {
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	font-size:.8em;
 	color:#999;
 }
-hr { border-top:1px dashed #c0c0c0; }
+
+/*
+** POSTS
+*/
+.post-list {
+	max-width:650px;
+}
+.post-list li {
+	padding:10px;
+}
+.post-list li .date {
+	float:right;
+}
+.post-list li:nth-child(2n) {
+	background-color:#f6f6f6;
+}
+
+/*
+** LINKS
+*/
 #git ul {
 	float:left;
 	width:50%;
@@ -166,13 +140,13 @@ hr { border-top:1px dashed #c0c0c0; }
 #git-recent li { margin-bottom:.7em; }
 #starred .star-desc {
 	color:#999;
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	font-size:.8em;
 }
 #git-recent {
 	margin:0;
 	padding:0;
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 }
 #git-recent .meta {
 	font-size:.7em;
@@ -199,6 +173,10 @@ hr { border-top:1px dashed #c0c0c0; }
 #git-recent li a {
 	font-family: 'Lora', serif;
 }
+
+/*
+** PROJECTS
+*/
 #project-nav {
 	list-style-type: none;
 }
@@ -211,7 +189,7 @@ hr { border-top:1px dashed #c0c0c0; }
 	text-transform:uppercase;
 	font-weight:700;
 	font-size:.8em;
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 }
 #project-nav li:hover {
 	opacity:.8;
@@ -267,7 +245,7 @@ hr { border-top:1px dashed #c0c0c0; }
 	font-size:.6em;
 	text-transform:uppercase;
 	color:#c0c0c0;
-	font-family:"Lucida Console", Monaco, monospace;
+	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	margin-left:10px;
 }
 .tool { letter-spacing:-.1em; }
@@ -280,7 +258,6 @@ hr { border-top:1px dashed #c0c0c0; }
 .design .full { border-left:2px solid #b5cde1;}
 .maps .full { border-left:2px solid #e1b5cd;}
 .web .full { border-left:2px solid #cde1b5;}
-
 #projects li { margin-top:30px; }
 #projects li .full {
 	display:none;
@@ -292,20 +269,20 @@ hr { border-top:1px dashed #c0c0c0; }
 	margin-bottom:10px;
 }
 
-.boom,
-footer {
-	font-family:"Lucida Console", Monaco, monospace;
-	color:#c0c0c0;
-	text-align:center;
-	font-size:.8em;
+/*
+** FOOTER
+*/
+footer { margin:4em 0 1.5em; }
+#arrow {
+	display:block;
+	height: 26px;
+	width: 19px;
+	padding-left: 7px;
+	border-radius:100%;
+	font-size:1.7em;
+	border:1px solid steelblue;
 }
-
-/* From Mapsam */
-.sl {color:#326295;}
-.cfa {color:#F90101;}
-.aod {color:#000;}
-.gisc {color:#F1BB56;}
-.exp {color:#A6232F;}
-.proj {color:#3E68BB;}
-
-
+#arrow:hover {
+	background-color:steelblue;
+	color:#f6f6f6;
+}
