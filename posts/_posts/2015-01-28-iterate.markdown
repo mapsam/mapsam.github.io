@@ -1,8 +1,0 @@
----
-layout: post
-title: "Don't make them wait. Iterate!"
----
-
-Talk about how to iterate and be ready for quick change instead of waiting for many changes.
-
-Use twitter/nytimes example.

@@ -9,6 +9,13 @@ extra_js:
 
 SVG is versatile and scalable. Let's animate it.
 
+SVG <span>path</span> animations are derived from the manipulation of two important style attributes, <span>stroke-dasharray</span> & <span>stroke-dashoffset</span>. <span>stroke-dasharray</span> defines the width and spacing of your <span>path</span> dashed line. <span>stroke-dashoffset</span> defines the beginning point of your dashes. To draw your SVG, you effectively set <span>stroke-dasharray</span> to the length of your path element, and animate the <span>stroke-dashoffset</span> to appear as if it is drawing the line. 
+
+There are **two important things** to know here, 1) this solution is based on CSS3 transformations so you have to be ready for cross-browser compatibility issues, and 2) I learned all of this from [Jake Archibald's post](http://jakearchibald.com/2013/animated-line-drawing-svg/), where you can learn a ton more about how this is actually working.
+
+Here's the function I've been using, and you can manipulate it accordingly. I recommend reading the post above, along with Jake's post about [web animations at Smashing Magazine](http://www.smashingmagazine.com/2013/03/04/animating-web-gonna-need-bigger-api/), which explains the different approaches to animating objects on your screen with and without javascript.
+
+## function animatePath()
 
 <div id="animate">Draw It!</div><br>
 
@@ -26,16 +33,7 @@ SVG is versatile and scalable. Let's animate it.
   c17.179,6.252,34.843,10.489,52.992,12.709c16.957,2.233,33.964,2.785,51.021,1.652c11.087-0.266,21.446-3.02,31.078-8.261
   c3.419-2.794,9.365-10.883,6.015-15.96"/>
 </svg>
-
----
-
-SVG <span>path</span> animations are derived from the manipulation of two important style attributes, <span>stroke-dasharray</span> & <span>stroke-dashoffset</span>. <span>stroke-dasharray</span> defines the width and spacing of your <span>path</span> dashed line. <span>stroke-dashoffset</span> defines the beginning point of your dashes. To draw your SVG, you effectively set <span>stroke-dasharray</span> to the length of your path element, and animate the <span>stroke-dashoffset</span> to appear as if it is drawing the line. 
-
-There are **two important things** to know here, 1) this solution is based on CSS3 transformations so you have to be ready for cross-browser compatibility issues, and 2) I learned all of this from [Jake Archibald's post](http://jakearchibald.com/2013/animated-line-drawing-svg/), where you can learn a ton more about how this is actually working.
-
-Here's the function I've been using, and you can manipulate it accordingly. I recommend reading the post above, along with Jake's post about [web animations at Smashing Magazine](http://www.smashingmagazine.com/2013/03/04/animating-web-gonna-need-bigger-api/), which explains the different approaches to animating objects on your screen with and without javascript.
-
-## function animatePath()
+<br>
 
 {% highlight js %}
 function animatePath(id, duration) {
