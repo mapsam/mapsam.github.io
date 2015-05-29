@@ -24,7 +24,8 @@ body {
 p {
 	color:#444;
 }
-article > p {	max-width:650px; }
+article > p,
+article > blockquote {	max-width:650px; }
 article > p img {	max-width:50em; }
 @media (max-width: 50em) {
 	article > p img {	max-width:100%; }
@@ -111,6 +112,14 @@ article p code {
 	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	font-size:.8em;
 	color:#999;
+}
+article blockquote {
+	margin:0;
+	padding:1px 20px;
+	background-color:#f6f6f6;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 
 /*
