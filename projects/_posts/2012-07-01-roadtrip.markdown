@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Seattle Roadtrip Interactive Map"
 tags: 'maps web'
 images: ['risj_map5.png', 'risj_map8.png']

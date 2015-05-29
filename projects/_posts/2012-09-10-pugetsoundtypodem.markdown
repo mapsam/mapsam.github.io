@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Puget Sound TypoDEM"
 tags: 'maps'
 images: ['puget1.png', 'puget2.png']

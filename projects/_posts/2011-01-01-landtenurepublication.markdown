@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Land Tenure Publication"
 tags: 'design'
 images: ['ltc_1.png', 'ltc_2.png', 'ltc_3.png']

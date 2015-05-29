@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Atlas of Design"
 tags: ['design', 'maps']
 images: ['atlasofdesign1.jpg', 'atlasofdesign2.jpg']

@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "NACIS Program Map"
 tags: 'maps'
 images: ['nacis1.png', 'nacis2.png']

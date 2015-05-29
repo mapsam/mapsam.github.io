@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "There are several mountains"
 tags: 'design'
 images: ['mtnsFinal.png', 'mtnsFinal2.png']

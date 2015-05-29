@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Wisconsin Recreation Access Maps"
 tags: 'maps'
 images: ['rec1.png', 'rec_slide3.png']

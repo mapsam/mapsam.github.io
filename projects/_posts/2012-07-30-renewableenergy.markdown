@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Renewable Energy Web Map"
 tags: 'maps web'
 images: ['renew.png']

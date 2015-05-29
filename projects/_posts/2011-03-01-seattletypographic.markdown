@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Seattle Typographic Map"
 tags: 'maps'
 images: ['axisFull.png']
