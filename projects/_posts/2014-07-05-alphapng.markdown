@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Alpha PNG"
 tags: 'web'
 images:

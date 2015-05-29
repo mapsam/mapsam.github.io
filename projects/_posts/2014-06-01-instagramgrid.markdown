@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Instagram Grid"
 tags: 'web'
 tools:

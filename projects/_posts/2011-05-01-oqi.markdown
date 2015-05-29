@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Office of Quality Improvement Map"
 tags: 'maps'
 images: ['OQI.png']

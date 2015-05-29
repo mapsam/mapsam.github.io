@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Werkstatt Web Tools"
 tags: 'web'
 tools:

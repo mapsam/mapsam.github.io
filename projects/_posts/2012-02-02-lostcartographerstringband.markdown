@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "The Lost Cartographer String Band"
 tags: 'design'
 images: ['lcsb.png']

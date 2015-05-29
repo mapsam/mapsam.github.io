@@ -5,8 +5,8 @@ weight: 2
 permalink: /
 ---
 
-<ul class="post-list">
+<div class="post-list">
 {% for post in site.categories.posts %}
-	<li class="{% if post.title == page.title %}current{% endif %}"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a><span class="date">{{ post.date | date: "%Y, %m.%d" }}</span></li>
+	<a class="post-list-item" href="{{ site.base_url }}{{ post.url }}">{{ post.title }}<span class="date">{{ post.date | date: "%Y, %m.%d" }}</span></a>
 {% endfor %}
-</ul>
+</div>

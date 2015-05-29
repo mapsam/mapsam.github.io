@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "GISCollective"
 tags: 'maps'
 tools:

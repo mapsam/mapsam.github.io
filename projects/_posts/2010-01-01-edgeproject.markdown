@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Wisconsin EDGE Project Branding"
 tags: 'design'
 images: ['edge1.png', 'edge4.png', 'edge5.png']

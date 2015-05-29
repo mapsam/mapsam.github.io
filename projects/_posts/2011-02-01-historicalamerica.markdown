@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Historical America Map Series"
 tags: 'maps'
 images: ['risj_map5.png', 'risj_map8.png']

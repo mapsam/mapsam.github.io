@@ -1,5 +1,5 @@
 ---
-layout: project
+ 
 title: "Tawi UW Branding"
 tags: 'design'
 images: ['tawi1.jpg', 'tawi2.jpg']
