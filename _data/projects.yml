@@ -24,10 +24,10 @@
   image: /images/proj/cugos.png
   color: '#3f75a2'
 -
-  name: Hillbarn Theatre
-  url: http://hillbarntheatre.org
-  image: /images/proj/hillbarn.png
-  color: '#e5e5e5'
+  name: Broad Street Maps
+  url: http://www.broadstreetmaps.org/our-work-2/
+  image: /images/proj/bsm.png
+  color: '#36b3a8'
 -
   name: Rice Fergus Miller
   url: http://rfmarch.com
@@ -38,3 +38,8 @@
   url: http://giscollective.org
   image: /images/proj/gisc.png
   color: '#A6242F'
+-
+  name: Hillbarn Theatre
+  url: http://hillbarntheatre.org
+  image: /images/proj/hillbarn.png
+  color: '#e5e5e5'
