@@ -2,36 +2,11 @@
 layout: default
 title: Projects
 weight: 3
-extra_js: 'projects.js'
 permalink: /
 ---
 
-<ul id="project-nav">
-  <li id="web">web</li>
-  <li id="design">design</li>
-  <li id="maps">maps</li>
-  <li id="all" class="active">all</li>
-  <div class="cf"></div>
-</ul>
-
-<ul id="projects">
-
-  {% for post in site.categories.projects %}
-    <li class="project {% for tag in post.tags %}{{ tag }} {% endfor %}">
-      <div class="info">
-        <h2>{{ post.title }}
-        {% for tool in post.tools %}
-          <span class="tool">{{ tool }}</span>
-        {% endfor %}
-        </h2>
-        {{ post.content }}{% capture extras %}{{ post.images | size }}{% endcapture %}
-        {% if extras != '0' %}<button class="expand">more</button>{% endif %}
-      </div>
-      <div class="full">
-        {% for img in post.images %}
-        <img src="{{ site.base_url }}/images/projects/{{ img }}">
-        {% endfor %}
-      </div>
-    </li>
+<div class="projects cf">
+  {% for project in site.data.projects %}
+    <a href="{{ project.url }}" target="_blank" class="project" data-title="{{ project.name }}" style="{% if project.image %}background-image:url({{ project.image }});{% endif %}{% if project.color %}background-color:{{ project.color }};{% endif %}"></a>
   {% endfor %}
-</ul>
+</div>

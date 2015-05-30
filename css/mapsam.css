@@ -58,6 +58,9 @@ nav ul li {
 	margin-right:10px;
 	display:inline-block;
 }
+.pull-right {
+  float:right;
+}
 nav ul li a {	
 	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 	color:#c0c0c0;
@@ -195,97 +198,49 @@ article blockquote {
 /*
 ** PROJECTS
 */
-#project-nav {
-	list-style-type: none;
+.projects {
+  width:100%;
 }
-#project-nav li {
-	float:left;
-	display:inline;
-	margin-right:10px;
-	padding:4px 10px;
-	border-radius:3px;
-	text-transform:uppercase;
-	font-weight:700;
-	font-size:.8em;
-	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+@media (max-width: 850px) {
+  .projects {
+    text-align:center;
+  }
 }
-#project-nav li:hover {
-	opacity:.8;
-	cursor:pointer;
+.project {
+	/*float:left;*/
+  display:inline-block;
+	position:relative;
+	width:250px;
+	height:120px;
+	margin:2px 5px;
+	background-color:#c0c0c0;
+  background-position: center center;
+  background-repeat:no-repeat;
 }
-#maps {
-	color:#b44682;
-	border:1px solid #b44682;
+.tooltip {
+  position: absolute;
+  top: -43px;
+  left:50%;
+  margin-left:-110px;
+  width: 200px;
+  padding: 5px 10px;
+  color: white;
+  background: rgba(0,0,0,0.8);
+  border-radius: 2px;
+  font-size: .7em;
+  text-align: center;
 }
-#maps.active { background-color:#b44682; }
-#web {
-	color:#82b446;
-	border:1px solid #82b446;
+.tooltip:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  margin-left: -6px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0,0,0,0.8);
 }
-#web.active { background-color:#82b446; }
-#design {
-	color:#4682B4;
-	border:1px solid #4682B4;
-}
-#design.active { background-color:#4682B4; }
-#all {
-	color:#c0c0c0;
-	border:1px solid #c0c0c0;
-}
-#all.active { background-color:#c0c0c0; }
-#project-nav li.active {
-	color:#fff;
-}
-.expand {
-	background-color:transparent;
-	border:1px solid #999;
-	color:#999;
-	padding:3px 8px;
-	text-transform: uppercase;
-	font-weight:700;
-	opacity:.8;
-	outline:none;
-	width:50px;
-}
-.expand:hover {
-	opacity:1;
-	cursor:pointer;
-}
-.expand:active {
-	outline:none;
-}
-.info h2 {
-	margin:0 0 5px;
-	padding:0;
-	font-size:1.1em;
-}
-.tool {
-	font-size:.6em;
-	text-transform:uppercase;
-	color:#c0c0c0;
-	font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
-	margin-left:10px;
-}
-.tool { letter-spacing:-.1em; }
-.info p { margin:0 0 10px; }
-#projects li .info,
-#projects li .full { padding-left:10px; }
-.design .info { border-left:2px solid #4682B4;}
-.maps .info { border-left:2px solid #b44682;}
-.web .info { border-left:2px solid #82b446;}
-.design .full { border-left:2px solid #b5cde1;}
-.maps .full { border-left:2px solid #e1b5cd;}
-.web .full { border-left:2px solid #cde1b5;}
-#projects li { margin-top:30px; }
-#projects li .full {
-	display:none;
-	padding-top:10px;
-}
-#projects li .full img {
-	max-width:100%;
-	height:auto;
-	margin-bottom:10px;
-}
+
 
 /*
 ** FOOTER
