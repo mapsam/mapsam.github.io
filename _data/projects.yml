@@ -1,0 +1,40 @@
+-
+  name: 2015 Fellowship
+  url: http://rva.codeforamerica.org
+  image: /images/proj/cfa.png
+  color: '#399fd3'
+-
+  name: Dropchop
+  url: http://github.com/cugos/Dropchop
+  image: /images/proj/dropchop.png
+  color: '#f6f6f6'
+-
+  name: Atlas of Design
+  url: http://atlasofdesign.org
+  image: /images/proj/aod.png
+  color: '#333'
+-
+  name: Maptime Seattle
+  url: http://maptimesea.github.io
+  image: /images/proj/maptime.png
+  color: '#f6f6f6'
+-
+  name: CUGOS
+  url: http://cugos.org
+  image: /images/proj/cugos.png
+  color: '#3f75a2'
+-
+  name: Hillbarn Theatre
+  url: http://hillbarntheatre.org
+  image: /images/proj/hillbarn.png
+  color: '#e5e5e5'
+-
+  name: Rice Fergus Miller
+  url: http://rfmarch.com
+  image: http://www.rfmarch.com/wp-content/themes/rfmarchcom/static/img/logo.svg
+  color: '#111'
+-
+  name: GISCollective
+  url: http://giscollective.org
+  image: /images/proj/gisc.png
+  color: '#A6242F'

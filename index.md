@@ -1,7 +1,6 @@
 ---
 title: Mapsam
 weight: 1
-extra_js: 'home.js'
 permalink: /
 layout: default
 ---
