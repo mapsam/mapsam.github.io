@@ -1,8 +1,0 @@
----
- 
-title: "NACIS Program Map"
-tags: 'maps'
-images: ['nacis1.png', 'nacis2.png']
----
-
-Small print project showing the distribution of the participants of the North American Cartographic Information Society (NACIS) annaul conference. Used digitally and printed for all conference participants in the five-day schedule book.
