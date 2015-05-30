@@ -6,7 +6,7 @@ permalink: /
 ---
 
 <div class="post-list cf">
-{% for post in site.categories.posts %}
+{% for post in site.posts %}
 	<a class="post-list-item cf" href="{{ site.base_url }}{{ post.url }}">{{ post.title }}<span class="date">{{ post.date | date: "%Y, %m.%d" }}</span></a>
   {% for img in post.images %}
     <img src="{{ site.base_url }}/images/projects/{{ img }}">
