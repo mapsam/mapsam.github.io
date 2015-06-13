@@ -3,7 +3,7 @@ layout: post
 title: "These aren't maps you're looking for."
 ---
 
-Last week I attended my first [State of the Map US](http://stateofthemap.us/) (SOTM), an annual conference for those within or interested in the OpenStreetMap (OSM). The conference was held in New York City at the UN headquarters, which was a most excellent venue. Not having been to an OSM-specific conference before, I was interested to see how it stacked up to the other, more general mapping conferences such as FOSS4G. I expected something smaller and more focused, relating purely to OSM and it's triumphs and failures thus far.
+Last week I attended my first [State of the Map US](http://stateofthemap.us/) (SOTM), an annual conference for those within or interested in [OpenStreetMap](http://www.openstreetmap.org/) (OSM). The conference was held in New York City at the UN headquarters, which was a most excellent venue. Not having been to an OSM-specific conference before, I was interested to see how it stacked up to the other, more general mapping conferences such as FOSS4G. I expected something smaller and more focused, relating purely to OSM and it's triumphs and failures thus far.
 
 ![opening party at the courthouse](/images/posts/20150613-sotm_courthouse.jpg)
 
