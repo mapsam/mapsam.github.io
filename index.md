@@ -15,7 +15,7 @@ I hack with the great people of [CUGOS](http://cugos.org) and am also an editor 
 
 You'll find me mostly writing CSS and Javascript. I avoid server-side work when it's not necessary, but still very much like it! Here's a project, [Dropchop](https://github.com/cugos/dropchop), that I've been working on recently. It's a GIS editor completely in the browser.
 
-## Let's get a beer
+### Say hello
 
 * Email: [matthews.sam@gmail.com](mailto:matthews.sam@gmail.com)
 * Github: [mapsam](http://github.com/mapsam)

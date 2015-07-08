@@ -40,7 +40,7 @@ article {
   > p, > blockquote {
     max-width: $read-width;
     img {
-      max-width: $read-width;
+      max-width: $max-width;
     }
   }
   @media (max-width:  $max-width) {
@@ -57,20 +57,12 @@ article {
   }
 }
 
-img {
-	max-width:100%;
-	height:auto;
-}
-
 ul { 
 	list-style-type: none;
 	margin:0;
 	padding:0;
 }
 
-.pull-right {
-  float:right;
-}
 .cf {
   &:before {
     content:" ";
@@ -118,6 +110,15 @@ nav {
       }
     }
   }
+
+  @media (min-width:  $max-width) {
+    .nav-left { 
+      float:left;
+    }
+    .nav-right {
+      float:right;
+    }
+  }
 }
 
 /*
@@ -135,8 +136,8 @@ article {
   }
 
   .highlight {
-    padding-left:10px;
-    margin-left:-10px;
+    max-width: $read-width;
+    padding:2px 10px;
     line-height:1em;
     overflow:auto;
     background-color:$light-grey;

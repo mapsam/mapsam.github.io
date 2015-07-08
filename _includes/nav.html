@@ -1,5 +1,5 @@
-<nav>
-	<ul>
+<nav class="cf">
+	<ul class="nav-left">
 	{% for weight in (1..10) %}
 	  {% for p in site.pages %}
 	    {% if p.weight == weight %}
@@ -11,8 +11,11 @@
 	    {% endif %}
 	  {% endfor %}
 	{% endfor %}
-		<li class="pull-right"><a href="https://www.github.com/mapsam">github</a></li>
-  	<li class="pull-right"><a href="https://www.twitter.com/vancematthews">@vancematthews</a></li>
+	</ul>
+
+	<ul class="nav-right">
+		<li><a href="https://www.github.com/mapsam">github</a></li>
+  	<li><a href="https://www.twitter.com/vancematthews">@vancematthews</a></li>
 	</ul>
 </nav>
 <ul class="connect">

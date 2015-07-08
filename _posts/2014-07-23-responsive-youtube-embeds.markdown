@@ -9,8 +9,9 @@ The responsive nature of the modern web is making content integration tricky - e
 
 Making these videos respond to your screen size can be an issue largely because your iframe has to be malleable and responsive, but that doesn't mean your content within the <span>&lt;iframe&gt;</span> can be responsive. So, the responsive video turns into a hack. Albiet, a very reliable and useful one!
 
-###CSS
-{% highlight css %}
+### CSS
+
+```CSS
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -23,14 +24,15 @@ Making these videos respond to your screen size can be an issue largely because 
   width:100%;
   height:100%;
 }
-{% endhighlight %}
+```
 
-###HTML
-{% highlight html %}
+### HTML
+
+```HTML
 <div class="video">
 <iframe src="..." frameborder="0" allowfullscreen></iframe>
 </div>
-{% endhighlight %}
+```
 
 <div class="video">
 <iframe src="http://www.youtube.com/embed/BPkMh7bR4PE?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -38,4 +40,4 @@ Making these videos respond to your screen size can be an issue largely because 
 
 This trick is possible because of the extra padding set to the <span>.video</span> div, which is at a percentage of its size and will therefore scale if the <span>.video</span> div changes in width. The <span>&lt;iframe&gt;</span> then scales with it and subsequently, the video itself.
 
-This of course is relying on your video to be at the standard 16:9 screen ratio (*you'll notice that 9 divided by 16 is .5625*) - hence **56.25%** in the padding. Other videos will need other padding percentages to fit their ratio.
+This of course is relying on your video to be at the standard 16:9 screen ratio (*notice 9 divided by 16 is .5625*) - hence **56.25%** in the padding. Other videos will need other padding percentages to fit their ratio.
