@@ -17,6 +17,12 @@ $code: #999;
 /*
 ** GLOBALS
 */
+* {
+  -webkit-box-sizing:border-box; 
+     -moz-box-sizing:border-box; 
+          box-sizing:border-box;
+}
+
 body {
 	font-family: $font-main;
 	max-width: $max-width;
@@ -187,7 +193,12 @@ article {
     width:100%;
 
     .date {
-      float:right;
+      display:block;
+    }
+    @media (min-width:  $max-width) {
+      .date {
+        float:right;
+      }
     }
 
     &:nth-child(2n) {
