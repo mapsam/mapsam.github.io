@@ -1,6 +1,5 @@
 ---
 layout: resume
-weight: 4
 title: Resume
 items:
     -
