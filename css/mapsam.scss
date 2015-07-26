@@ -4,7 +4,7 @@
 $font-main: 'Arvo', serif;
 $font-sub: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 
-$max-width: 50em;
+$max-width: 55em;
 $read-width: 650px;
 
 $blue: #4682B4;
@@ -258,6 +258,72 @@ article {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 6px solid rgba(0,0,0,0.8);
+  }
+}
+
+/*
+** RESUME
+*/
+.resume {
+  max-width: $read-width;
+  margin-bottom: 5em;
+}
+.resume_item {
+  margin-bottom: 2em;
+  display: inline-block;
+  vertical-align: top;
+  &.resume_item_half {
+    width: 49%;
+    &:nth-child(1n) {
+      padding-right: 2em;
+    }
+  }
+  &.resume_item_large {
+    font-size: 1.2em;
+  }
+}
+.resume_header {
+  margin: 0;
+}
+.resume_title {
+  font-size: 0.8em;
+  font-weight: 100;
+  color: $grey;
+  margin-left: 1em;
+}
+.resume_timeline {
+  font-weight: 100;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: 0;
+}
+.resume_description {
+  font-size: 0.9em;
+  margin: 0.5em 0;
+  line-height: 1.4em;
+}
+
+.resume_list {
+  li {
+    position: relative;
+    a {
+      color: $dark-grey;
+      span {
+        color: $grey;
+        margin-left: 1em;
+        @include mono($grey);
+      }
+      &:hover {
+        background: transparent;
+        text-decoration: underline;
+      }
+    }
+    &:before {
+      position: absolute;
+      content: ">";
+      left: -1em;
+      color: $blue;
+    }
   }
 }
 
