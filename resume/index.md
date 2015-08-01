@@ -1,6 +1,7 @@
 ---
 layout: resume
 title: Resume
+weight: 4
 items:
     -
         name: Code for America
