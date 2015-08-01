@@ -17,13 +17,13 @@ items:
         name: Google Maps
         title: Data Analyst
         time: 2012 - 2013
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet totam debitis sed iusto ducimus sunt doloribus ab nisi necessitatibus, exercitationem aut recusandae unde corporis, aspernatur consequuntur harum dolorem tenetur!
+        description: Contract with Google Maps as a data analyst maintaining the (quite large) database of spatial data. My role included user support, data edits, and quality control of edits being made.
     -
         name: Atlas of Design
         extra: resume_item_half
         title: Co-Editor
         time: 2013 - Present
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut pariatur necessitatibus quo est, placeat in ab ducimus impedit. Facere eligendi, qui doloribus praesentium recusandae laudantium labore. Sit aliquam, voluptate.
+        description: As an Editor of the Atlas of Design, a NACIS publication, I help coordinate everything from call for participations, website development, social media outreach, publishing, and fulfillment.
     -
         name: CUGOS
         extra: resume_item_half
@@ -39,7 +39,7 @@ items:
         extra: resume_item_half
         title: Designer
         time: 2012 - 2015
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi aut pariatur necessitatibus quo est, placeat in ab ducimus impedit. Facere eligendi, qui doloribus praesentium recusandae laudantium labore. Sit aliquam, voluptate.
+        description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donahue. For three years we worked with small and large clients on their brand and online presense.
 cv:
     -
         name: Dropchop talk and workshop, CUGOS 2015 Spring Fling
