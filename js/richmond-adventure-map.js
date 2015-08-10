@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   L.mapbox.accessToken = 'pk.eyJ1Ijoic3ZtYXR0aGV3cyIsImEiOiJVMUlUR0xrIn0.NweS_AttjswtN5wRuWCSNA';
   var map = L.mapbox.map('adventure', 'mapbox.streets');
-  map.setView([37.530072, -77.443437], 15)
+  map.setView([37.531235, -77.443281], 15)
     .featureLayer.setGeoJSON(route);
 
   // start
