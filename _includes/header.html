@@ -15,6 +15,8 @@
   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/mapsam.css">
   <link rel="stylesheet" href="/css/syntax.css">
+  {% for js in page.extra_js_cdn %}<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
+  {% for css in page.extra_css_cdn %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
   {% for css in page.extra_css %}<link rel="stylesheet" href="{{site.baseurl}}/css/{{ css }}">{% endfor %}
   {% for js in page.extra_js %}<script type="text/javascript" src="{{site.baseurl}}/js/{{ js }}"></script>{% endfor %}
 
