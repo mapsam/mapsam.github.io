@@ -2,23 +2,27 @@
 layout: resume
 title: Resume
 weight: 4
-items:
+jobs:
     -
         name: Code for America
+        img: https://www.codeforamerica.org/assets/logo.png
         extra: resume_item_large
         title: 2015 Fellow
         time: 2015 - Present
         description: Code for America is a non-profit that works with local government to create user-centered services with modern technologies. I am working in the city of Richmond, VA to help improve health service delivery by connecting those without access to health insurance with the safety-net system in the area.
     -
         name: Creative Media Alliance
+        img: http://creativemediaalliance.com/wp-content/themes/CMA-Responsive/images/logo-trans.png
         title: Web Developer
         time: 2013 - 2015
         description: Creative Media Alliance is a branding and marketing agency in Seattle, WA. My work included web development and social media API integration for clients ranging from local television shows to health clinics and architecture firms.
     -
         name: Google Maps
+        img: /images/google-logo.png
         title: Data Analyst
         time: 2012 - 2013
-        description: Contract with Google Maps as a data analyst maintaining the (quite large) database of spatial data. My role included user support, data edits, and quality control of edits being made.
+        description: As a data analyst maintaining Google's spatial database  my role included user support, data edits, and quality control. 
+extras: 
     -
         name: Atlas of Design
         extra: resume_item_half
