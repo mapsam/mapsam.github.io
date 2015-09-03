@@ -272,14 +272,26 @@ article {
   margin-bottom: 2em;
   display: inline-block;
   vertical-align: top;
+  position: relative;
   &.resume_item_half {
-    width: 49%;
+    @media (min-width: $max-width) {
+      width: 49%;  
+    }
     &:nth-child(1n) {
       padding-right: 2em;
     }
   }
   &.resume_item_large {
     font-size: 1.2em;
+  }
+  .resume_logo {
+    position: absolute;
+    left: -70px;
+    top: 0;
+    width: 55px;
+    img {
+      width: 100%;
+    }
   }
 }
 .resume_header {
@@ -307,22 +319,18 @@ article {
   li {
     position: relative;
     a {
+      font-size: 0.9em;
+      display: block;
       color: $dark-grey;
       span {
         color: $grey;
-        margin-left: 1em;
+        margin-right: 1em;
         @include mono($grey);
+        padding: 10px 0;
       }
       &:hover {
-        background: transparent;
-        text-decoration: underline;
+        background: #f6f6f6;
       }
-    }
-    &:before {
-      position: absolute;
-      content: ">";
-      left: -1em;
-      color: $blue;
     }
   }
 }

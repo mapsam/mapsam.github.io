@@ -5,19 +5,30 @@ layout: default
 {{ content }}
 
 <div class="resume cf">
-{% for item in page.items %}
-  <div class="resume_item cf {{ item.extra }}">
-    <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
-    <span class="resume_timeline">{{ item.time }}</span>
-    <p class="resume_description">{{ item.description }}</p>
-  </div>
-{% endfor %}
 
-<h2>Writing, Talks, &amp; More</h2>
-{% for c in page.cv %}
-  <ul class="resume_list">
-    <li><a href="{{ c.link }}" target="_blank">{{ c.name }}<span>{{ c.year }}</span></a></li>
-  </ul>
-{% endfor %}
+  {% for item in page.jobs %}
+    <div class="resume_item cf {{ item.extra }}">
+      <div class="resume_logo"><img src="{{ item.img }}"></div>
+      <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
+      <span class="resume_timeline">{{ item.time }}</span>
+      <p class="resume_description">{{ item.description }}</p>
+    </div>
+  {% endfor %}
+
+  <h2>Writing & Talks</h2>
+    <ul class="resume_item resume_list">
+    {% for c in page.cv %}
+      <li><a href="{{ c.link }}" target="_blank"><span>{{ c.year }}</span>{{ c.name }}</a></li>
+    {% endfor %}
+    </ul>
+
+  <h2>Things</h2>
+  {% for item in page.extras %}
+    <div class="resume_item cf {{ item.extra }}">
+      <h3 class="resume_header">{{ item.name }}<span class="resume_title">{{ item.title }}</span></h3>
+      <span class="resume_timeline">{{ item.time }}</span>
+      <p class="resume_description">{{ item.description }}</p>
+    </div>
+  {% endfor %}
 
 </div>
