@@ -43,3 +43,8 @@
   url: http://hillbarntheatre.org
   image: /images/proj/hillbarn.png
   color: '#e5e5e5'
+-
+  name: South Africa Blog
+  url: http://mapsam.com/za
+  image: /images/proj/za.png
+  color: '#3D9970'
