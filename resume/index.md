@@ -47,7 +47,7 @@ extras:
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donahue. For three years we worked with small and large clients on their brand and online presense.
 cv:
     -
-        name: Video presentation: dropchop demo and updates, CUGOS Fall 2015
+        name: Video presentation, dropchop demo and updates, CUGOS Fall 2015
         link: https://www.youtube.com/watch?v=5VfPOmM6bpo
         year: 2015
     -
