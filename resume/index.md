@@ -44,7 +44,7 @@ extras:
         extra: resume_item_half
         title: Designer
         time: 2012 - 2015
-        description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donahue. For three years we worked with small and large clients on their brand and online presense.
+        description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
     -
         name: Video presentation, dropchop demo and updates, CUGOS Fall 2015
