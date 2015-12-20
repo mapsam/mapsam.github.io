@@ -84,7 +84,6 @@ ul {
   font-family: $font-sub;
   color: $color;
   font-size:.75em;
-  text-transform: uppercase;
 }
 .mono {
   @include mono($grey);
@@ -104,6 +103,7 @@ nav {
   
       a {
         @include mono($code);
+        text-transform: uppercase;
         letter-spacing:.2em;
         
         &.current {
@@ -156,6 +156,14 @@ article {
   p {
     span, code {
       @include mono($code)
+    }
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 2em;
+    li {
+      line-height: 1.7em;
     }
   }
 
