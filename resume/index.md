@@ -8,7 +8,7 @@ jobs:
         img: https://www.codeforamerica.org/assets/logo.png
         extra: resume_item_large
         title: 2015 Fellow
-        time: 2015 - Present
+        time: 2015
         description: Code for America is a non-profit that works with local government to create user-centered services with modern technologies. I am working in the city of Richmond, VA to help improve health service delivery by connecting those without access to health insurance with the safety-net system in the area.
     -
         name: Creative Media Alliance
@@ -46,6 +46,26 @@ extras:
         time: 2012 - 2015
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
+    -
+        name: Maptime Seattle, Hand drawn maps
+        link: http://maptimesea.github.io/2015/12/01/hand-drawn-maps.html
+        year: 2015
+    -
+        name: End of Year Report, Code for America, Team Richmond
+        link: http://rva.codeforamerica.org/end-of-year-report/
+        year: 2015
+    -
+        name: Final presentation to RMHF, Code for America, Team Richmond
+        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        year: 2015
+    -
+        name: GIS for the people, NACIS
+        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        year: 2015
+    -
+        name: Dropchop, NACIS Practical Cartography Day
+        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        year: 2015
     -
         name: Video presentation, dropchop demo and updates, CUGOS Fall 2015
         link: https://www.youtube.com/watch?v=5VfPOmM6bpo
@@ -95,6 +115,4 @@ cv:
         link: http://minds.wisconsin.edu/bitstream/handle/1793/47860/Becker%20Daniels%20Matthews%20Roanhaus.pdf.txt;jsessionid=dmfvwv611nnx?sequence=6
         year: 2010
 ---
-
-
 
