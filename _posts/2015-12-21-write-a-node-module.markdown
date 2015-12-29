@@ -16,7 +16,7 @@ Writing a node module requires Node.js on your computer. You can download that a
 
 # 1. Module structure & `index.js`
 
-The structure of a node module was the biggest hurdle for me to get over. There are a lot of files, and things linking back and forth. The major structure I like to use keeps things clean at the root level. For the rest of this post, let's assume we are creating a module called `timebuddy` that has the user input a date, and return in a javascript-friendly format (thanks, buddy). You can download this module here.
+The structure of a node module was the biggest hurdle for me to get over. There are a lot of files, and things linking back and forth. The major structure I like to use keeps things clean at the root level. For the rest of this post, let's assume we are creating a module called `timebuddy` that has the user input a date, and return in a javascript-friendly format (thanks, buddy). You can download this module [here](https://github.com/mapsam/timebuddy).
 
 ```python
 timebuddy/       # root directory, named after your module
