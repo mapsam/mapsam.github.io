@@ -3,6 +3,16 @@ layout: post
 title: "Writing a node module"
 ---
 
+<aside>
+    <ol>
+        <li><a href="#one">Module structure & index.js</a></li>
+        <li><a href="#two">Command line interface</a></li>
+        <li><a href="#three">Using dependencies</a></li>
+        <li><a href="#four">Parameters & callbacks</a></li>
+        <li><a href="#five">Publishing</a></li>
+    </ol>
+</aside>
+
 Writing a node module can be a bit complex. There are a number of subjective decisions that come into play, which can make learning from existing modules difficult. I find it easiest to start from the bare minimum, increasing functionality only when the need arrises.
 
 This post will go through some major components of a node module, including:
@@ -13,6 +23,8 @@ This post will go through some major components of a node module, including:
 4. how to deploy your module to `npm`'s registry.
 
 Writing a node module requires Node.js on your computer. You can download that at [nodejs.org](https://nodejs.org).
+
+<div id="one"></div>
 
 # 1. Module structure & `index.js`
 
@@ -72,6 +84,8 @@ What's going on here? What is this `module.exports` business? In order for Node 
 1. Use `timebuddy` in a file, which we can do through a
 2. command line interface
 
+<div id="two"></div>
+
 # 2. Command line interface
 
 In order to make this run effectively on the command line, we have to do a couple of things.
@@ -117,6 +131,8 @@ Assuming no errors (typically related to permissions when writing to `/usr/local
 
 What's really cool about the above, is that we are using `timebuddy` as a function to do some work for us, and logging it in a separate file. This means we can have different functionalty in our bash command versus the module, which just returns a value.
 
+<div id="three"></div>
+
 # 3. Using dependencies
 
 Dependencies are the foundation of Node modules. You can use other Node modules in your own in order to take functionality from other libraries. This keeps code clean, modular, and prevents developers from rewriting functionality across different modules.
@@ -124,6 +140,8 @@ Dependencies are the foundation of Node modules. You can use other Node modules 
 ### `require()`
 
 Similar to python where you can `import` different libraries, Node allows you to do this with `require` statements, which keeps your files clean from clutter of other, potentially huge libraries. We used `require` above to import our own work, which means you can require external libraries as well as internal.
+
+<div id="four"></div>
 
 # 4. Parameters & callbacks
 
@@ -224,6 +242,8 @@ function timebuddy(time, callback) {
 ```
 
 This gives you the ability to break code apart into distinct groups of functionality. It's great for keeping code clean, easy to read, and testable. I highly recommend using `tap` for testing node modules.
+
+<div id="five"></div>
 
 # 5. Publishing
 
