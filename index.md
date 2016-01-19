@@ -9,8 +9,6 @@ Hi, I'm **Sam**. Here I am on a mountain.
 
 ![mapsam on a mountain](/images/mt-walker.jpg)
 
-*Photo Credit: Taylor Kelleher*
-
 I'm a **web** developer and designer, a geographer with a **map** problem, and an avid **open source** contributor. I just finished a fellowship with with [Code for America](http://codeforamerica.org) working on [health care delivery](http://rva.codeforamerica.org/end-of-year-report/) in Richmond, VA.
 
 I hack with the great people of [CUGOS](http://cugos.org) and am also an editor of the [Atlas of Design](http://atlasofdesign.org). Here's a project, [Dropchop](https://github.com/cugos/dropchop), that we've been working on recently. It's a GIS editor completely in the browser. 
