@@ -19,7 +19,7 @@ Incorporating user feedback into the application has led to some of the most rew
 
 Don't get me wrong, ice cream cake is really tasty. Especially the crunchy pieces at the bottom. And way better than standard cake. But it doesn't work for everybody, especially if it's no one's birthday.
 
-I'm becoming addicted to ~~ice cream cake~~ our users. And looking forward to more feedback.
+I'm becoming addicted to <s>ice cream cake</s> our users. And looking forward to more feedback.
 
 ![ice cream cake](/images/posts/20150529-icecreamcake.jpg)
 
