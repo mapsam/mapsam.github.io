@@ -4,9 +4,15 @@ title: Resume
 weight: 4
 jobs:
     -
+        name: Mapbox
+        img: https://farm3.staticflickr.com/2836/buddyicons/75060277@N03_r.jpg
+        extra: resume_item_large
+        title: Engineering
+        time: 2016
+        description: Mapbox is a mapping platform for developers. I work closely with the devops team on streamlining our geographic data pipeline, develop libraries used for manipulating geographic information, and write internal and external documentation to make our tools easier to use.
+    -
         name: Code for America
         img: https://www.codeforamerica.org/assets/logo.png
-        extra: resume_item_large
         title: 2015 Fellow
         time: 2015
         description: Code for America is a non-profit that works with local government to create user-centered services with modern technologies. I am working in the city of Richmond, VA to help improve health service delivery by connecting those without access to health insurance with the safety-net system in the area.
