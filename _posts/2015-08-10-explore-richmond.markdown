@@ -4,11 +4,11 @@ title: "Richmond is for adventures."
 extra_js:
   richmond-adventure-map.js
 extra_js_cdn:
-  https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js
+  https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.js
 extra_css:
   richmond-adventure-map.css
 extra_css_cdn:
-  https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css
+  https://api.tiles.mapbox.com/mapbox-gl-js/v0.15.0/mapbox-gl.css
 ---
 
 <div id="adventure"></div>

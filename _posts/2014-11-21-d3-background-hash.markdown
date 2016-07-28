@@ -17,7 +17,7 @@ In D3, we can create these re-usable patterns with the standard `.append()` func
 
 **Create the pattern style**
 
-```JS
+```javascript
 var defs = svg.append('defs'); // svg is the SVG element you are working with
 var dashWidth = 5; // change this to define the distance between hashes
 var g = defs.append("pattern")
@@ -33,7 +33,7 @@ g.append("path").attr("d", "M"+dashWidth+",0 l-"+dashWidth+","+dashWidth);
 
 The above essentially appends the following to your SVG element for usage as a fill style referenced by `#hash`.
 
-```HTML
+```html
 <defs>
   <pattern id="hash" patternUnits="userSpaceOnUse" width="5" height="5" x="0" y="0"><g style="fill: none; stroke: rgb(229, 229, 229); stroke-width: 0.5px;"><path d="M0,0 l5,5"></path><path d="M5,0 l-5,5"></path></g></pattern>
 </defs>
@@ -43,7 +43,7 @@ The above essentially appends the following to your SVG element for usage as a f
 
 In order to assign the proper pattern, you can set `fill:url(#hash);` to your elements, which should properly mask and take on the style.
 
-```JS
+```javascript
 svg.selectAll(".elem")
   .data(...)  
   .enter().append("path") 

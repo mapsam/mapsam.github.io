@@ -1,0 +1,40 @@
+canvas {
+  float: left;
+  margin-right: 1em;
+}
+#example {
+  margin: 4em 0;
+  height: 300px;
+}
+
+#info {
+  float: left;
+  width: auto;
+}
+#vt-title {
+  display: block;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+}
+#vt-command {
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+  font-size: 1.3em;
+  margin: 0 0 1em;
+}
+#vt-next {
+  background: transparent;
+  border: 3px solid #b44682;
+  border-radius: 3px;
+  color: #b44682;
+  font-family: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+  font-size: 1em;
+  padding: 0.4em;
+}
+#vt-next:hover {
+  cursor: pointer;
+  background: #f6f6f6;
+}
+#vt-next:focus {
+  outline: none;
+}
