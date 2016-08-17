@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Sketching and vectorizing"
+---
+
+When trying to describe a system or technical workflow, I find it easier to sketch the flow of information rather than describe in paragraph form. I create drawings like the one below:
+
+![](https://c1.staticflickr.com/9/8085/28427721504_ce9be71c7a.jpg)
+
+*The following workflow is largely influenced from my former teammate [Ben Golder](http://benjamingolder.com/) at Code for America.*
+
+## Sketch out the idea
+
+![sketch](https://c1.staticflickr.com/9/8456/28972501671_e2a75030d5_z.jpg)
+
+## Trace sketch with pen
+
+This increases contrast between the paper and the drawing, which is useful in the next step. Also erase the pencil marks once you've traced it out in pen.
+
+![sketch](https://c2.staticflickr.com/8/7714/28943295082_6d71c6edce_z.jpg)
+
+## Adobe Shape CC
+
+![shape](https://c1.staticflickr.com/9/8575/28943366702_07383c8766_b.jpg)
+
+1. Take the photo and adjust the bar to pick up more or less detail.
+1. Clean up any captured fragments with the cleaning tool
+1. Convert it to a vector
+1. Now it's in your Adobe CC library!
+
+## Clean in Adobe Illustrator
+
+Import it into Illustrator using your CC library.
+
+![import](https://c1.staticflickr.com/9/8523/29048601835_6bce254d26_z.jpg)
+
+And drag it into your artboard - now you have a vector-version of the drawing.
+
+![vector](https://c1.staticflickr.com/9/8472/29048603865_86b8eea777_z.jpg)
+
+## Add color with Illustrator/Photoshop
+
+If I want to retain the *sketch* aspect of the drawing, I move into Photoshop and use the different brush tools. Otherwise you can add color in Illustrator.
+
+![final](https://c1.staticflickr.com/9/8085/28427721504_ce9be71c7a.jpg)
