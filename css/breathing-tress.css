@@ -1,0 +1,190 @@
+.tree {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tree1 {
+  -webkit-animation: treeBreatheOne 5s linear infinite;
+  -moz-animation: treeBreatheOne 5s linear infinite;
+  -o-animation: treeBreatheOne 5s linear infinite;
+  animation: treeBreatheOne 5s linear infinite;
+}
+.tree2 {
+  -webkit-animation: treeBreatheTwo 4s linear infinite;
+  -moz-animation: treeBreatheTwo 4s linear infinite;
+  -o-animation: treeBreatheTwo 4s linear infinite;
+  animation: treeBreatheTwo 4s linear infinite;
+}
+.tree3 {
+  -webkit-animation: treeBreatheThree 8s linear infinite;
+  -moz-animation: treeBreatheThree 8s linear infinite;
+  -o-animation: treeBreatheThree 8s linear infinite;
+  animation: treeBreatheThree 8s linear infinite;
+}
+
+@-webkit-keyframes treeBreatheOne {
+  0% {
+    -webkit-transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+  }
+}
+@-moz-keyframes treeBreatheOne {
+  0% {
+    -webkit-transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+  }
+}
+@-o-keyframes treeBreatheOne {
+  0% {
+    -webkit-transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+  }
+}
+@keyframes treeBreatheOne {
+  0% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  50% {
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+}
+
+@-webkit-keyframes treeBreatheTwo {
+  0% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+@-moz-keyframes treeBreatheTwo {
+  0% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+@-o-keyframes treeBreatheTwo {
+  0% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+@keyframes treeBreatheTwo {
+  0% {
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+  50% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+}
+
+@-webkit-keyframes treeBreatheThree {
+  0% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 1.4);
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+}
+@-moz-keyframes treeBreatheThree {
+  0% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 1.4);
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+}
+@-o-keyframes treeBreatheThree {
+  0% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 1.4);
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+  }
+}
+@keyframes treeBreatheThree {
+  0% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+  }
+  50% {
+    -webkit-transform: scale(1.4, 1.4);
+    -moz-transform: scale(1.4, 1.4);
+    -ms-transform: scale(1.4, 1.4);
+    transform: scale(1.4, 1.4);
+  }
+  100% {
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+  }
+}
