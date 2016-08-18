@@ -7,7 +7,7 @@ $font-sub: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
 $max-width: 55em;
 $read-width: 650px;
 
-$blue: #4682B4;
+$main-color: #da8c83;
 $dark-grey: #333;
 $light-grey: #f6f6f6;
 $grey: #c0c0c0;
@@ -38,7 +38,7 @@ p {
 
 a {	
 	text-decoration:none;
-	color: $blue;
+	color: $main-color;
 }
 
 article {
@@ -61,7 +61,7 @@ article {
 
   a:hover {
   	color:$light-grey;
-  	background-color: $blue;
+  	background-color: $main-color;
   }
 
   aside {
@@ -122,7 +122,7 @@ nav {
         letter-spacing:.2em;
         
         &.current {
-          color: $blue;
+          color: $main-color;
         }
         
         &:hover {
@@ -239,7 +239,7 @@ article {
     }
 
     &:hover {
-      background: $blue;
+      background: $main-color;
       color:$light-grey;
 
       .date {
