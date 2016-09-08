@@ -53,6 +53,10 @@ extras:
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
     -
+        name: Making maps on the internet, UW-Madison Cartography Workshop
+        link: https://www.youtube.com/watch?v=AbtBi_e3mwc
+        year: 2016
+    -
         name: Maptime Seattle, Hand drawn maps
         link: http://maptimesea.github.io/2015/12/01/hand-drawn-maps.html
         year: 2015
