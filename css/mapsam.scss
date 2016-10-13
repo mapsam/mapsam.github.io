@@ -12,7 +12,7 @@ $dark-grey: #333;
 $light-grey: #f6f6f6;
 $grey: #c0c0c0;
 
-$code: #999;
+$code: #888;
 
 /*
 ** GLOBALS
@@ -158,10 +158,12 @@ article {
 
   .highlight {
     max-width: $read-width;
-    padding:1em;
-    line-height:1.3em;
+    padding: 0.5em;
+    line-height: 1.3em;
     font-size: 1.2em;
-    overflow:auto;
+    overflow: auto;
+    background: #f6f6f6;
+    border-radius: 3px;
 
     pre {
       margin:.5em 0;
