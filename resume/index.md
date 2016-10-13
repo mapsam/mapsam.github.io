@@ -7,9 +7,9 @@ jobs:
         name: Mapbox
         img: https://farm3.staticflickr.com/2836/buddyicons/75060277@N03_r.jpg
         extra: resume_item_large
-        title: Engineering
+        title: Software Engineer
         time: 2016
-        description: Mapbox is a mapping platform for developers. I work closely with the devops team on streamlining our geographic data pipeline, develop libraries used for manipulating geographic information, and write internal and external documentation to make our tools easier to use.
+        description: Mapbox is a mapping platform for developers. I work on transforming geographic information into maps on the internet with Javascript and C++, develop the pipeline behind Mapbox Studio for users to upload their own data, and write internal and external documentation to make our tools easier to use.
     -
         name: Code for America
         img: https://www.codeforamerica.org/assets/logo.png
