@@ -53,6 +53,18 @@ extras:
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
     -
+        name: "Mapbox blog: style-optimzed vector tiles"
+        link: https://www.mapbox.com/blog/style-optimized-vector-tiles/
+        year: 2016
+    -
+        name: Planning & organizing the CUGOS Spring Fling
+        link: http://cugos.org/2016-spring-fling
+        year: 2016
+    -
+        name: "Mapbox blog: vector tile specification documentation"
+        link: https://www.mapbox.com/blog/vector-tile-spec-docs/
+        year: 2016
+    -
         name: Making maps on the internet, UW-Madison Cartography Workshop
         link: https://www.youtube.com/watch?v=AbtBi_e3mwc
         year: 2016
