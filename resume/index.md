@@ -53,6 +53,10 @@ extras:
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
     -
+        name: "NACIS 2016 Talk: Maps are fast and so can you"
+        link: https://docs.google.com/presentation/d/1j40vnKkeszmuLc3D2dsPsBGoBMI6htQSFY-eFwJyeps/pub?start=false&loop=false
+        year: 2016
+    -
         name: "Mapbox blog: style-optimzed vector tiles"
         link: https://www.mapbox.com/blog/style-optimized-vector-tiles/
         year: 2016
