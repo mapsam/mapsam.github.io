@@ -3,6 +3,8 @@ layout: post
 title: "Sketching and vectorizing"
 ---
 
+*Edit: Adobe Shape CC is now part of Adobe Capture CC*
+
 When trying to describe a system or technical workflow, I find it easier to sketch the flow of information rather than describe in paragraph form. I create drawings like the one below:
 
 ![](https://c1.staticflickr.com/9/8085/28427721504_ce9be71c7a.jpg)
@@ -19,7 +21,7 @@ This increases contrast between the paper and the drawing, which is useful in th
 
 ![sketch](https://c2.staticflickr.com/8/7714/28943295082_6d71c6edce_z.jpg)
 
-## Adobe Shape CC
+## Adobe Capture CC (previously Adobe Shape CC)
 
 ![shape](https://c1.staticflickr.com/9/8575/28943366702_07383c8766_b.jpg)
 
