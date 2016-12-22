@@ -18,8 +18,8 @@ $code: #888;
 ** GLOBALS
 */
 * {
-  -webkit-box-sizing:border-box; 
-     -moz-box-sizing:border-box; 
+  -webkit-box-sizing:border-box;
+     -moz-box-sizing:border-box;
           box-sizing:border-box;
 }
 
@@ -36,7 +36,7 @@ p {
 	color: $dark-grey;
 }
 
-a {	
+a {
 	text-decoration:none;
 	color: $main-color;
 }
@@ -44,8 +44,8 @@ a {
 article {
 
   position: relative;
-  
-  > p, > blockquote {
+
+  > p, > blockquote, > ul li {
     max-width: $read-width;
     img {
       max-width: $max-width;
@@ -78,7 +78,7 @@ article {
   }
 }
 
-ul { 
+ul {
 	list-style-type: none;
 	margin:0;
 	padding:0;
@@ -109,22 +109,22 @@ ul {
 */
 nav {
 	margin-bottom:4em;
-  
+
   ul {
-  
+
     li {
       margin-right:10px;
       display:inline-block;
-  
+
       a {
         @include mono($code);
         text-transform: uppercase;
         letter-spacing:.2em;
-        
+
         &.current {
           color: $main-color;
         }
-        
+
         &:hover {
           color: $dark-grey;
         }
@@ -133,7 +133,7 @@ nav {
   }
 
   @media (min-width:  $max-width) {
-    .nav-left { 
+    .nav-left {
       float:left;
     }
     .nav-right {
@@ -148,7 +148,7 @@ nav {
 article {
 	color: $dark-grey;
 	line-height:1.6em;
-  
+
   img {
     display:block;
     margin:auto;
@@ -158,9 +158,9 @@ article {
 
   .highlight {
     max-width: $read-width;
-    padding: 0.5em;
+    padding: 1em;
     line-height: 1.3em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     overflow: auto;
     background: #f6f6f6;
     border-radius: 3px;
@@ -310,7 +310,7 @@ article {
   position: relative;
   &.resume_item_half {
     @media (min-width: $max-width) {
-      width: 49%;  
+      width: 49%;
     }
     &:nth-child(1n) {
       padding-right: 2em;
@@ -374,6 +374,6 @@ article {
 /*
 ** FOOTER
 */
-footer { 
+footer {
   margin:4em 0 1.5em;
 }
