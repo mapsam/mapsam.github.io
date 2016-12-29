@@ -10,18 +10,18 @@ Working with multi-sites can be tricky, especially when you have specific script
 * safeguarding data scripts (i.e. Google Analytics) from running on dev servers, which prevents the need to remove the script
 
 
-{% highlight javascript %}
+```javascript
 pathArray = window.location.href.split( '/' );
 protocol = pathArray[0];
 host = pathArray[2];
 url = protocol + '//' + host;
-{% endhighlight %}
+```
 
-###Bonus Script
+## Bonus Script
 
 There are a ton of ways to get the URL, especially if you are working with more than just JavaScript. In **WordPress**, you can get any number of directory paths or URIs, but you can also push information from your PHP into your javascript functions if you define them in your <span>functions.php</span> file in the <span>enqueue_script</span> process.
 
-{% highlight php %}
+```php
 <?php
 wp_register_script( 'js_file', 'path/to/site.js' );
 // get base URL
@@ -35,12 +35,12 @@ wp_localize_script( 'js_file', 'siteInfo', $site_data );
 // queue your script file for useage
 wp_enqueue_script( 'js_file' );
 ?>
-{% endhighlight %}
+```
 
 Then in your javascript file you can access the data via the name of your object; in this example the object is named <span>siteInfo</span>.
 
-{% highlight javascript %}
-alert( siteInfo.base_url ) ; // alerts www.example.com
-{% endhighlight %}
+```javsacript
+alert(siteInfo.base_url); // alerts www.example.com
+```
 
 ~Boo~ Yay URLs!

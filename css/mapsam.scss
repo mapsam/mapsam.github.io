@@ -1,8 +1,8 @@
 ---
 ---
 
-$font-main: 'Arvo', serif;
-$font-sub: 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+$font-main: -apple-system,BlinkMacSystemFont,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+$font-sub: 'Lucida Console',lucida,monospace;
 
 $max-width: 55em;
 $read-width: 650px;
@@ -30,6 +30,7 @@ body {
 	padding:0 2em;
 	line-height: 1.5em;
 	overflow-x:hidden;
+  font-size: 15px;
 }
 
 p {
@@ -39,6 +40,13 @@ p {
 a {
 	text-decoration:none;
 	color: $main-color;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  width: $read-width;
+  margin: 2em 0;
 }
 
 article {
@@ -159,10 +167,9 @@ article {
   .highlight {
     max-width: $read-width;
     padding: 1em;
-    line-height: 1.3em;
+    line-height: 1.1em;
     font-size: 1.1em;
     overflow: auto;
-    background: #f6f6f6;
     border-radius: 3px;
 
     pre {
@@ -181,8 +188,6 @@ article {
   }
 
   code {
-    background-color: #f6f6f6;
-    padding: 3px;
     @include mono($code)
   }
 
