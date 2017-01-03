@@ -27,8 +27,8 @@ jobs:
         img: /images/google-logo.png
         title: Data Analyst
         time: 2012 - 2013
-        description: As a data analyst maintaining Google's spatial database  my role included user support, data edits, and quality control. 
-extras: 
+        description: As a data analyst maintaining Google's spatial database  my role included user support, data edits, and quality control.
+extras:
     -
         name: Atlas of Design
         extra: resume_item_half
@@ -52,6 +52,10 @@ extras:
         time: 2012 - 2015
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
+    -
+        name: "ESIP Tech Dive: Vector Tile Maps"
+        link: https://www.youtube.com/watch?v=wN2-ms2PwBs
+        year: 2016
     -
         name: "NACIS 2016 Talk: Maps are fast and so can you"
         link: https://docs.google.com/presentation/d/1j40vnKkeszmuLc3D2dsPsBGoBMI6htQSFY-eFwJyeps/pub?start=false&loop=false
@@ -141,4 +145,3 @@ cv:
         link: http://minds.wisconsin.edu/bitstream/handle/1793/47860/Becker%20Daniels%20Matthews%20Roanhaus.pdf.txt;jsessionid=dmfvwv611nnx?sequence=6
         year: 2010
 ---
-
