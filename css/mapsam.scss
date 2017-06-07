@@ -4,10 +4,12 @@
 $font-main: -apple-system,BlinkMacSystemFont,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 $font-sub: 'Lucida Console',lucida,monospace;
 
-$max-width: 55em;
+$max-width: 45em;
 $read-width: 650px;
 
-$main-color: #da8c83;
+$red: #da8c83;
+$blue: #8c83da;
+$main-color: $blue;
 $dark-grey: #333;
 $light-grey: #f6f6f6;
 $grey: #c0c0c0;
@@ -25,12 +27,16 @@ $code: #888;
 
 body {
 	font-family: $font-main;
-	max-width: $max-width;
-	margin:1em auto;
-	padding:0 2em;
 	line-height: 1.5em;
 	overflow-x:hidden;
   font-size: 15px;
+  margin: 0;
+}
+
+.container {
+  max-width: $max-width;
+  padding: 1em;
+  margin: auto;
 }
 
 p {
@@ -38,8 +44,11 @@ p {
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 	color: $main-color;
+  :hover {
+    border-bottom: 1px solid $blue;
+  }
 }
 
 hr {
@@ -49,41 +58,9 @@ hr {
   margin: 2em 0;
 }
 
-article {
-
-  position: relative;
-
-  > p, > blockquote, > ul li {
-    max-width: $read-width;
-    img {
-      max-width: $max-width;
-    }
-  }
-  @media (max-width:  $max-width) {
-    > p {
-      img {
-        max-width: 100%;
-      }
-    }
-  }
-
-  a:hover {
-  	color:$light-grey;
-  	background-color: $main-color;
-  }
-
-  aside {
-    position: absolute;
-    right: -50px;
-    width: 160px;
-    font-size: small;
-    line-height: 1.4em;
-
-    ol {
-      margin: 0;
-      padding: 0;
-    }
-  }
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 ul {
@@ -106,7 +83,7 @@ ul {
 @mixin mono($color) {
   font-family: $font-sub;
   color: $color;
-  font-size:.75em;
+  // font-size:.75em;
 }
 .mono {
   @include mono($grey);
@@ -115,39 +92,44 @@ ul {
 /*
 ** NAVIGATION
 */
-nav {
+.nav {
 	margin-bottom:4em;
-
+  // background: $red;
+  display: block;
+  padding: 0.16em 1em;
+  position: relative;
   ul {
-
     li {
       margin-right:10px;
       display:inline-block;
 
       a {
-        @include mono($code);
+        @include mono(#ED4E6D);
         text-transform: uppercase;
         letter-spacing:.2em;
+        padding: 0 0.5em;
 
-        &.current {
-          color: $main-color;
-        }
-
+        &.current,
         &:hover {
-          color: $dark-grey;
+          padding-bottom: 4px;
+          border-bottom: 3px solid #ED4E6D;
         }
       }
     }
   }
+}
 
-  @media (min-width:  $max-width) {
-    .nav-left {
-      float:left;
-    }
-    .nav-right {
-      float:right;
-    }
-  }
+#color-bar {
+  position: absolute;
+  top: 0;
+  border-top: 30px solid #E0FFA2;
+  border-right: 25px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 0px solid transparent;
+  z-index: -1;
+  left: 0;
+  width: 40%;
+  min-width: 500px;
 }
 
 /*
@@ -225,35 +207,32 @@ article {
 ** POSTS
 */
 .post-list {
-	max-width: $read-width;
-
   .post-list-item {
-    padding:10px;
-    display:block;
-    width:100%;
-
     .date {
-      display:block;
-    }
-    @media (min-width:  $max-width) {
-      .date {
-        float:right;
+      @media(max-width: $max-width) {
+        display: block;
       }
     }
-
-    &:nth-child(2n) {
-      background-color:$light-grey;
-    }
-
-    &:hover {
-      background: $main-color;
-      color:$light-grey;
-
-      .date {
-        color:$light-grey;
+    .slash {
+      color: #c0c0c0;
+      margin-left: 1em;
+      margin-right: 1em;
+      @media(max-width: $max-width) {
+        display: none;
       }
+    }
+    @media(max-width: $max-width) {
+      margin-bottom: 1em;
     }
   }
+  // @media(max-width: $max-width) {
+  //   .slash {
+  //     display: none;
+  //   }
+  //   .date {
+  //     display: block;
+  //   }
+  // }
 }
 
 
@@ -262,9 +241,9 @@ article {
 */
 .projects {
   width:100%;
-  @media (max-width: 850px) {
-    text-align:center;
-  }
+  // @media (max-width: 850px) {
+  //   text-align:center;
+  // }
 
   .project {
     display:inline-block;
