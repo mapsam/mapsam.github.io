@@ -1,15 +1,12 @@
 ---
 layout: default
 title: Posts
-weight: 2
 permalink: /posts/
+weight: 2
 ---
 
-<div class="post-list cf">
+<div class="post-list">
 {% for post in site.posts %}
-	<a class="post-list-item cf" href="{{ site.base_url }}{{ post.url }}">{{ post.title }}<span class="date">{{ post.date | date: "%Y, %m.%d" }}</span></a>
-  {% for img in post.images %}
-    <img src="{{ site.base_url }}/images/projects/{{ img }}">
-  {% endfor %}
+	<div class="post-list-item"><span class="date">{{ post.date | date: "%Y, %m.%d" }}</span><span class="slash">/</span><a class="post-list-item" href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></div>
 {% endfor %}
 </div>

@@ -8,7 +8,7 @@ jobs:
         img: https://farm3.staticflickr.com/2836/buddyicons/75060277@N03_r.jpg
         extra: resume_item_large
         title: Software Engineer
-        time: 2016
+        time: 2016 - Present
         description: Mapbox is a mapping platform for developers. I work on transforming geographic information into maps on the internet with Javascript and C++, develop the pipeline behind Mapbox Studio for users to upload their own data, and write internal and external documentation to make our tools easier to use.
     -
         name: Code for America
@@ -33,17 +33,17 @@ extras:
         name: Atlas of Design
         extra: resume_item_half
         title: Co-Editor
-        time: 2013 - Present
+        time: 2013 - 2017
         description: As an Editor of the Atlas of Design, a NACIS publication, I help coordinate everything from call for participations, website development, social media outreach, publishing, and fulfillment.
     -
         name: CUGOS
         extra: resume_item_half
         time: 2012 - Present
-        description: CUGOS is a Seattle-based meetup group that loves open source spatial tools. We host a variety of monthly meetings and hack nights, as well as annual mini-conferences.
+        description: Secretary of the Board. CUGOS is a Seattle-based meetup group that loves open source spatial tools. We host a variety of monthly meetings and hack nights, as well as annual mini-conferences.
     -
         name: Maptime Seattle
         extra: resume_item_half
-        time: 2014 - Present
+        time: 2014 - 2016
         description: Maptime Seattle is the local chapter of the international Maptime community. We teach anything related to maps and spatial data, all for beginners and those exited to learn something new.
     -
         name: Situated Laboratories
@@ -58,7 +58,7 @@ cv:
         year: 2016
     -
         name: "NACIS 2016 Talk: Maps are fast and so can you"
-        link: https://docs.google.com/presentation/d/1j40vnKkeszmuLc3D2dsPsBGoBMI6htQSFY-eFwJyeps/pub?start=false&loop=false
+        link: https://docs.google.com/presentation/d/1j40vnKkeszmuLc3D2dsPsBGoBMI6htQSFY-eFwJyeps/pub
         year: 2016
     -
         name: "Mapbox blog: style-optimzed vector tiles"
@@ -86,15 +86,15 @@ cv:
         year: 2015
     -
         name: Final presentation to RMHF, Code for America, Team Richmond
-        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        link: https://docs.google.com/presentation/d/1Nw_LeRlYTpMcLzzRMycdPzhEducIcoDGYYHAAV1J8Mo/pub
         year: 2015
     -
         name: GIS for the people, NACIS
-        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        link: https://docs.google.com/presentation/d/1JhsWYi1JMVdiZrvVOWiAWUEFtnT0vkcJQpsvDyM-IYM/pub
         year: 2015
     -
         name: Dropchop, NACIS Practical Cartography Day
-        link: https://www.youtube.com/watch?v=5VfPOmM6bpo
+        link: https://docs.google.com/presentation/d/162KqfCnALSvliexcY8-ctW1mX9hhXWgxV69OWgmf8ok/pub
         year: 2015
     -
         name: Video presentation, dropchop demo and updates, CUGOS Fall 2015
