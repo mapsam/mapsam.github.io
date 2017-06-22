@@ -152,48 +152,19 @@ ul {
 /* center twitter embeds */
 .twitter-tweet { margin:10px !important; }
 
-/*
-** PROJECTS
-*/
-.projects {
-  width:100%;
-  // @media (max-width: 850px) {
-  //   text-align:center;
-  // }
-
-  .project {
-    display:inline-block;
-    position:relative;
-    width:240px;
-    height:120px;
-    margin:2px 5px;
-    background-color:$grey;
-    background-position: center center;
-    background-repeat:no-repeat;
-  }
+.project {
+  margin-bottom: 5em;
 }
-.tooltip {
-  position: absolute;
-  top: -43px;
-  left:50%;
-  margin-left:-110px;
-  width: 200px;
-  padding: 5px 10px;
-  background: rgba(0,0,0,0.8);
-  border-radius: 2px;
-  text-align: center;
-  @include mono($light-grey);
-
-  &:after {
-    content: " ";
-    position: absolute;
-    left: 50%;
-    bottom: -6px;
-    margin-left: -6px;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid rgba(0,0,0,0.8);
-  }
+.project-image {
+  width: 90px;
+  height: 45px;
+  float: right;
+  margin-top: -1em;
+  background-color:$grey;
+  background-position: center center;
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  border-radius: 5px;
 }
 
 /*

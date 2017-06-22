@@ -1,50 +1,60 @@
 -
-  name: 2015 Fellowship
+  name: Code for America fellowship project
   url: http://rva.codeforamerica.org
   image: /images/proj/cfa.png
   color: '#399fd3'
+  description: The Richmond Code for America fellowship focused on healthcare access for people in poverty. During our initial research phase, we heard from patients, case managers, and screening staff that the eligibility screening process at safety-net health services is often a significant barrier to care.
 -
   name: Dropchop
   url: http://github.com/cugos/Dropchop
   image: /images/proj/dropchop.png
   color: '#f6f6f6'
+  description: Dropchop is a browser-based GIS powered by Mapbox.js and Turf.js. The need for small-scale GIS operations comes up quite frequently in our work, especially for those without much time. Dropchop aims to empower your spatial data by removing complexity.
 -
   name: Atlas of Design
   url: http://atlasofdesign.org
   image: /images/proj/aod.png
   color: '#333'
+  description: The Atlas of Design is dedicated to showing off some of the world’s most beautiful and intriguing cartographic design. Every two years, we publish a new volume of full-color maps, selected from worldwide competition and judged by an expert panel.
 -
   name: Maptime Seattle
   url: http://maptimesea.github.io
   image: /images/proj/maptime.png
   color: '#f6f6f6'
+  description: MaptimeSEA is the Seattle branch of the international Maptime community. Together, we learn and explore mapping technologies through tutorials and other meetups.
 -
   name: CUGOS
   url: http://cugos.org
   image: /images/proj/cugos.png
   color: '#3f75a2'
+  description: The Cascadia chapter of OSGeo is focused on learning and teaching about open data, maps, and spatial applications. We like code and good conversation.
 -
   name: Broad Street Maps
   url: http://www.broadstreetmaps.org/our-work-2/
   image: /images/proj/bsm.png
   color: '#36b3a8'
+  description: I helped Broad Street Maps create two interactive maps. One looking at the <a href="http://broadstreetmaps.github.io/ppp">public and private partnerships with USAID</a> around the world, the other exploring <a href="https://broadstreetmaps.github.io/tzwater/">water sanitation and security in Tanzania</a>.
 -
   name: Rice Fergus Miller
   url: http://rfmarch.com
   image: http://www.rfmarch.com/wp-content/themes/rfmarchcom/static/img/logo.svg
   color: '#111'
+  description: Designed and built the website for architecture firm Rice Fergus Miller while working at Creative Media Alliance.
 -
   name: GISCollective
   url: http://giscollective.org
   image: /images/proj/gisc.png
   color: '#A6242F'
+  description: The Geographic Information Student Collective (GISC) is an ongoing project focused on the compiling, learning, and teaching of mapping knowledge. The goal is to understand our digital environment, how to set it up, and how to manipulate it with an impossibly huge network of languages, programs, and software.
 -
   name: Hillbarn Theatre
   url: http://hillbarntheatre.org
   image: /images/proj/hillbarn.png
   color: '#e5e5e5'
+  description: Freelance web design and development project for the Hillbarn Theatre company based in California.
 -
   name: South Africa Blog
   url: http://mapsam.com/za
   image: /images/proj/za.png
   color: '#DDDDDD'
+  description: My personal blog when studying abroad in Cape Town, South Africa. Fair warning - my writing is awful.
