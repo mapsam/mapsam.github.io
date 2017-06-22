@@ -5,13 +5,15 @@ permalink: /
 layout: default
 ---
 
-Hi, I'm **Sam**. Here you can find my [posts](/posts), [projects](/projects), and [resume](/resume).
+### Hi, I'm **Sam**.
+
+Here you can find my [posts](/posts), [projects](/projects), and [resume](/resume).
 
 I'm a software engineer and designer, a geographer, and an avid open source software contributor. I work at [Mapbox](https://mapbox.com) building tools to make stronger and faster maps. Previously I was a [Code for America](http://codeforamerica.org) Fellow working on [health care delivery](http://rva.codeforamerica.org/end-of-year-report/) in Richmond, VA.
 
-I am an Editor of the [Atlas of Design](http://atlasofdesign.org) and proud member of [CUGOS](http://cugos.org). Here's a project, [Dropchop](https://github.com/cugos/dropchop), that we built together. It's a GIS editor completely in the browser.
+I a former Editor for the [Atlas of Design](http://atlasofdesign.org) and proud member of [CUGOS](http://cugos.org) where we build cool map projects like [Dropchop](https://github.com/cugos/dropchop). 
 
-You can find most of my work on **[Github](http://github.com/mapsam)**.
+You can find most of my work on **[Github](http://github.com/mapsam)**. `¯\_(ツ)_/¯`
 
 ### Say hello
 
