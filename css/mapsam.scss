@@ -4,17 +4,15 @@
 $font-main: -apple-system,BlinkMacSystemFont,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 $font-sub: 'Lucida Console',lucida,monospace;
 
-$max-width: 45em;
-$read-width: 650px;
-
 $red: #da8c83;
 $blue: #8c83da;
 $main-color: $blue;
 $dark-grey: #333;
 $light-grey: #f6f6f6;
 $grey: #c0c0c0;
-
 $code: #888;
+
+$max-width: 700px;
 
 /*
 ** GLOBALS
@@ -26,11 +24,40 @@ $code: #888;
 }
 
 body {
-	font-family: $font-main;
+	font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
 	line-height: 1.5em;
 	overflow-x:hidden;
-  font-size: 15px;
-  margin: 0;
+  font-size: 13.5px;
+  margin: 2em auto;
+  padding: 1em;
+  max-width: $max-width;
+  line-height: 1.9em;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  -moz-font-feature-settings: "kern" 1, "liga" 1;
+  -ms-font-feature-settings: "kern" 1, "liga" 1;
+  -o-font-feature-settings: "kern" 1, "liga" 1;
+  -webkit-font-feature-settings: "kern" 1, "liga" 1;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+.nav {
+  a {
+    &:hover {
+      border: none;
+    }
+  }
+  img {
+    width: 80px;
+    height: auto;
+  }
+  margin-bottom: 2em;
 }
 
 .container {
@@ -39,14 +66,27 @@ body {
   margin: auto;
 }
 
+p, ul, ol, pre, blockquote {
+  margin-bottom: 2em;
+}
+
 p {
 	color: $dark-grey;
+
+  code {
+    background: #f6f6f6;
+  }
+}
+
+pre {
+  padding: 1em;
+  background: #f6f6f6;
 }
 
 a {
 	text-decoration: none;
 	color: $main-color;
-  :hover {
+  &:hover {
     border-bottom: 1px solid $blue;
   }
 }
@@ -54,7 +94,7 @@ a {
 hr {
   border: none;
   border-top: 1px solid #e5e5e5;
-  width: $read-width;
+  width: 100%;
   margin: 2em 0;
 }
 
@@ -81,7 +121,6 @@ ul {
 }
 
 @mixin mono($color) {
-  font-family: $font-sub;
   color: $color;
   // font-size:.75em;
 }
@@ -89,105 +128,15 @@ ul {
   @include mono($grey);
 }
 
-/*
-** NAVIGATION
-*/
-.nav {
-	margin-bottom:4em;
-  // background: $red;
-  display: block;
-  padding: 0.16em 1em;
-  position: relative;
-  ul {
-    li {
-      margin-right:10px;
-      display:inline-block;
-
-      a {
-        @include mono(#ED4E6D);
-        text-transform: uppercase;
-        letter-spacing:.2em;
-        padding: 0 0.5em;
-
-        &.current,
-        &:hover {
-          padding-bottom: 4px;
-          border-bottom: 3px solid #ED4E6D;
-        }
-      }
-    }
-  }
-}
-
-#color-bar {
-  position: absolute;
-  top: 0;
-  border-top: 30px solid #E0FFA2;
-  border-right: 25px solid transparent;
-  border-bottom: 0px solid transparent;
-  border-left: 0px solid transparent;
-  z-index: -1;
-  left: 0;
-  width: 40%;
-  min-width: 500px;
-}
-
-/*
-** POST
-*/
-article {
-	color: $dark-grey;
-	line-height:1.6em;
-
-  img {
-    display:block;
-    margin:auto;
-    max-width:100%;
-    height:auto;
-  }
-
-  .highlight {
-    max-width: $read-width;
-    padding: 1em;
-    line-height: 1.1em;
-    font-size: 1.1em;
-    overflow: auto;
-    border-radius: 3px;
-
-    pre {
-      margin:.5em 0;
-    }
-
-    code {
-      background-color: transparent;
-    }
-  }
-
-  p {
+.list {
+  li {
+    position: relative;
     span {
-      @include mono($code)
+      color: $grey;
+      margin-right: 1em;
+      @include mono($grey);
+      padding: 10px 0;
     }
-  }
-
-  code {
-    @include mono($code)
-  }
-
-  ul {
-    list-style-type: disc;
-    margin-left: 2em;
-    li {
-      line-height: 1.7em;
-    }
-  }
-
-  blockquote {
-    margin:0;
-    padding:1px 20px;
-    background-color:$light-grey;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
   }
 }
 
@@ -202,39 +151,6 @@ article {
 }
 /* center twitter embeds */
 .twitter-tweet { margin:10px !important; }
-
-/*
-** POSTS
-*/
-.post-list {
-  .post-list-item {
-    .date {
-      @media(max-width: $max-width) {
-        display: block;
-      }
-    }
-    .slash {
-      color: #c0c0c0;
-      margin-left: 1em;
-      margin-right: 1em;
-      @media(max-width: $max-width) {
-        display: none;
-      }
-    }
-    @media(max-width: $max-width) {
-      margin-bottom: 1em;
-    }
-  }
-  // @media(max-width: $max-width) {
-  //   .slash {
-  //     display: none;
-  //   }
-  //   .date {
-  //     display: block;
-  //   }
-  // }
-}
-
 
 /*
 ** PROJECTS
@@ -284,7 +200,6 @@ article {
 ** RESUME
 */
 .resume {
-  max-width: $read-width;
   margin-bottom: 5em;
 }
 .resume_item {
@@ -299,9 +214,6 @@ article {
     &:nth-child(1n) {
       padding-right: 2em;
     }
-  }
-  &.resume_item_large {
-    font-size: 1.2em;
   }
   .resume_logo {
     position: absolute;
@@ -324,34 +236,11 @@ article {
 }
 .resume_timeline {
   font-weight: 100;
-  font-size: 0.9em;
   font-style: italic;
   margin: 0;
 }
 .resume_description {
-  font-size: 0.9em;
   margin: 0.5em 0;
-  line-height: 1.4em;
-}
-
-.resume_list {
-  li {
-    position: relative;
-    a {
-      font-size: 0.9em;
-      display: block;
-      color: $dark-grey;
-      span {
-        color: $grey;
-        margin-right: 1em;
-        @include mono($grey);
-        padding: 10px 0;
-      }
-      &:hover {
-        background: #f6f6f6;
-      }
-    }
-  }
 }
 
 

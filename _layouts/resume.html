@@ -16,9 +16,9 @@ layout: default
   {% endfor %}
 
   <h2>Writing & Talks</h2>
-    <ul class="resume_item resume_list">
+    <ul class="resume_item list">
     {% for c in page.cv %}
-      <li><a href="{{ c.link }}" target="_blank"><span>{{ c.year }}</span>{{ c.name }}</a></li>
+      <li><span>{{ c.year }}</span><a href="{{ c.link }}" target="_blank">{{ c.name }}</a></li>
     {% endfor %}
     </ul>
 

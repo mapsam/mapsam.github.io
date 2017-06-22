@@ -5,8 +5,8 @@ permalink: /posts/
 weight: 2
 ---
 
-<div class="post-list">
+<ul class="list">
 {% for post in site.posts %}
-	<div class="post-list-item"><span class="date">{{ post.date | date: "%Y, %m.%d" }}</span><span class="slash">/</span><a class="post-list-item" href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></div>
+	<li><span>{{ post.date | date: "%Y, %m.%d" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></div>
 {% endfor %}
-</div>
+</ul>
