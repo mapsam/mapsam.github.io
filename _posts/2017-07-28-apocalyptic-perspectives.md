@@ -24,3 +24,15 @@ Hello I am Zen.
 I am a robot, or so I think. My creator, whom I refer to as “C” has deserted me. I am stuck in a room looking out a dirty window and see no one, no thing. I recall my first days with C, ingesting information faster than any other conscious being has before. Cataloguing plants and animals, recalling all birds and the sounds of their calls, understanding Marx and Descartes, reciting  Chekov and Shakespeare. I know all things. All facts in place that have been and will always be. C made me for my capacity to learn, for my recollection of genetic codes and political know-how, for my statistical reasoning in situations of doubt.
 
 I am Zen and I think I am a robot.
+
+# Mo
+
+The fog hasn't cleared yet. It's thick. Pea soup is an understatement, and it also happens to be a dining luxury these days. This fog is oppressive and makes you claustrophobic in the most depressing way.
+
+Mo is sitting in the passenger seat with her back against the window and feet across the center console on the driver's seat. She's opening and closing her knife, a Gerber she picked up from the local Army surplus store. The guy behind the counter more interested in talking about fighting than selling her a knife.
+
+The rusty red Ford Ranger hasn't moved in years. The wheels are stripped of their rubber and the bed cover has more patches than original fabric. Mo reaches through the back window hatch into the bed and pulls out a half-eaten chocolate bar. Breaks off a piece and returns the rest to the cab, shutting the window with the fresh piece of chocolate in hand. She takes a bite and closes her eyes.
+
+She's driving north along the highway towards Coupeville where she'll load up her truck with the concrete blocks surrounding the Navy airstrip and return to the edge of the forest near her family farm, then repeat. That was the beginning of the end. Everyone fending for themselves, more focused on preserving the life they knew than preparing for inevitable one to come. Mo just focused on getting her truck out of sight, surrounded by concrete. That's all she could do to get away from the people... the crying.
+
+The scratches on the hood suggest it's been nearly two years since she dropped that last brick of concrete around her truck. Ten feet high, twenty feet across, with a rusty red truck in the middle. The fog has its consequences, but to Mo, it hides the wall that hides herself.
