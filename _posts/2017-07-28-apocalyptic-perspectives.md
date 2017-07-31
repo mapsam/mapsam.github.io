@@ -36,3 +36,21 @@ The rusty red Ford Ranger hasn't moved in years. The wheels are stripped of thei
 She's driving north along the highway towards Coupeville where she'll load up her truck with the concrete blocks surrounding the Navy airstrip and return to the edge of the forest, unload, and repeat. That was the beginning of the end. Everyone fending for themselves, more focused on preserving the life they knew than preparing for the inevitable one to come. Mo just focused on building her concrete wall. That's all she could do to get away from the people... the crying.
 
 The scratches on the hood suggest it's been nearly two years since she dropped that last brick of concrete around her truck. Ten feet high, twenty feet across, with a rusty red truck in the middle. The fog has its consequences, but to Mo, it hides the wall that hides herself.
+
+# Simon
+
+Across the counter from Simon is a traveler he's never seen before. His palms are down on the plywood surface, starting to sweat. There's a map of the region taped on one side and math scribblings on the other. Stock counts, prices of purchases, bored sketches of owls. Strangers are a risk to this trading post. More than once Simon has woken up with a lump on his head and supplies missing. Typically food. People will do anything for food.
+
+The shelves are loosely scattered with canned fish, lighters, batteries, bungee cords, and other things you'd see in a checkout line at a gas station. It's not much.
+
+"Looking for anything in particular?", Simon asks while the stranger averts his gaze. People aren't warm to each other anymore. You can't be when every other person is out to end you over a can of kidney beans.
+
+The patron points to a lighter behind the counter. Simon reaches for one without taking his eyes off the man. Even with the bars separating him from this stranger he can't be certain he won't reach through and grab something. He puts the blue and white striped lighter on the counter.
+
+"That'll be three ounces."
+
+No more glorified white men on currency. Raw material, steel, aluminum, anything you can melt into something useful, that's what counts. Owning an accurate scale is the modern day equivalent to a bill counter. Have a forge to melt materials? You might as well be Wells Fargo.
+
+The man offloads a handful of steel pellets and scraps from his back pocket and Simon puts it on the rusty scale. He pulls across the weights to 3 ounces, perfect weight. He nudges the lighter into the man's dry and calloused hand.
+
+The sun is starting to break through the clouds and is shining through a crack in the wall to the right. It illuminates the dust floating around the shop. Golden specks dancing, not knowing the world they live in. The man grabs the lighter and tips his head in gratitude to Simon as he turns to leave. When the door opens Simon briefly glimpses the sun beaming down onto the afternoon grass. The dandelions breathing in every drop of sunlight they can. He exhales as the door swings shut, not even realizing he was holding his breath. It's a good day.
