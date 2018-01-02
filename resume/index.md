@@ -53,6 +53,10 @@ extras:
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
     -
+        name: "High-Tech Cartography and the Liberal Arts - interview through the UW–Madison alumni association"
+        link: https://mediaspace.wisc.edu/media/High-Tech+Cartography+and+the+Liberal+Arts/1_l4gwsu7i
+        year: 2018
+    -
         name: "ESIP Tech Dive: Vector Tile Maps"
         link: https://www.youtube.com/watch?v=wN2-ms2PwBs
         year: 2016
