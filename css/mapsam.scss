@@ -104,12 +104,6 @@ img {
   height: auto;
 }
 
-ul {
-	list-style-type: none;
-	margin:0;
-	padding:0;
-}
-
 .cf {
   &:before {
     content:" ";
@@ -130,6 +124,9 @@ ul {
 }
 
 .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   li {
     position: relative;
     span {
