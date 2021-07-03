@@ -38,8 +38,8 @@ extras:
     -
         name: CUGOS
         extra: resume_item_half
-        time: 2012 - Present
-        description: Secretary of the Board. CUGOS is a Seattle-based meetup group that loves open source spatial tools. We host a variety of monthly meetings and hack nights, as well as annual mini-conferences.
+        time: 2012 - 2018
+        description: Former Secretary of the Board. CUGOS is a Seattle-based meetup group that loves open source spatial tools. We host a variety of monthly meetings and hack nights, as well as annual mini-conferences.
     -
         name: Maptime Seattle
         extra: resume_item_half
