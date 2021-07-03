@@ -1,6 +1,26 @@
 -
+  name: Beepboop
+  url: https://github.com/mapsam/beepboop
+  image: /images/proj/beepboop.png
+  description: beepboop is a simple, daily journal. Jot down your feelings, tally your day, or write a poem. Free, private, and built with love ❤️
+-
+  name: Gus
+  url: https://github.com/mapsam/gus
+  image: /images/proj/gus.png
+  description: Gus connects Google Spreadsheets with Maps. The goal is to allow users to quickly and easily create a new, accessible, and updatable point-based map via simple spreadsheets.
+-
+  name: URI
+  url: https://mapsam.com/uri/
+  image: /images/proj/uri.png
+  description: A nice page outlining all of the components of a URI.
+-
+  name: Find My Orca
+  url: https://github.com/mapsam/find-my-orca
+  image: /images/proj/orca.png
+  description: A Node.js & ExpressJS application to help humans reconnect with their ORCA cards in the Seattle & Puget Sound area.
+-
   name: Code for America fellowship project
-  url: http://rva.codeforamerica.org
+  url: https://mapsam.com/rva/
   image: /images/proj/cfa.png
   color: '#399fd3'
   description: The Richmond Code for America fellowship focused on healthcare access for people in poverty. During our initial research phase, we heard from patients, case managers, and screening staff that the eligibility screening process at safety-net health services is often a significant barrier to care.
