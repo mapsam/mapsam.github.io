@@ -149,3 +149,7 @@ cv:
         link: http://minds.wisconsin.edu/bitstream/handle/1793/47860/Becker%20Daniels%20Matthews%20Roanhaus.pdf.txt;jsessionid=dmfvwv611nnx?sequence=6
         year: 2010
 ---
+
+I’m a geographer turned software engineer with 6+ years of experience building and maintaining HTTP infrastructure. Strong experience in API design, build systems, and performance analysis. I lead small teams of engineers focused on delivering results quickly and building for long-term maintenance.
+
+Download/print version can be found [here](./matthews-resume-2021.pdf).
