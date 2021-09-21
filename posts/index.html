@@ -7,6 +7,6 @@ weight: 2
 
 <ul class="list">
 {% for post in site.posts %}
-	<li><span>{{ post.date | date: "%Y, %m.%d" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></div>
+	<li><span>{{ post.date | date: "%Y-%m-%d" }}</span><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></div>
 {% endfor %}
 </ul>
