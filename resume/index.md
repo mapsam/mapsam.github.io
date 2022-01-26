@@ -5,20 +5,20 @@ weight: 4
 jobs:
     -
         name: Mapbox
-        img: https://media-exp3.licdn.com/dms/image/C560BAQFiPZ6Z7O1i_A/company-logo_200_200/0/1623793154224?e=1633564800&v=beta&t=PJLxu2AA5cqM22II4OSf70G7eWulePQOG44pNcBXI7E
+        img: https://media-exp1.licdn.com/dms/image/C560BAQFiPZ6Z7O1i_A/company-logo_200_200/0/1623793154224?e=2159024400&v=beta&t=0CgOlFNGHT3m-G6PBOucHDffHfRMpb3Jf0EZ3v8hiHg
         extra: resume_item_large
         title: Software Engineer
         time: 2016 - Present
         description: Mapbox is a mapping platform for developers. I work on transforming geographic information into maps on the internet with Javascript and C++, develop the pipeline behind Mapbox Studio for users to upload their own data, and write internal and external documentation to make our tools easier to use.
     -
         name: Code for America
-        img: https://media-exp3.licdn.com/dms/image/C560BAQGyCGH_MO6kPg/company-logo_200_200/0/1620829558778?e=1633564800&v=beta&t=Og_d3caravA_-YQlPFBlKTZM2gUvATPyeB8p7sBRmsE
+        img: https://media-exp1.licdn.com/dms/image/C560BAQGyCGH_MO6kPg/company-logo_200_200/0/1620829558778?e=2159024400&v=beta&t=2DM5WIg404Djg6ar-qMEbmd94UEsT0SN8eDzZfeXVtY
         title: 2015 Fellow
         time: 2015
         description: Code for America is a non-profit that works with local government to create user-centered services with modern technologies. I am working in the city of Richmond, VA to help improve health service delivery by connecting those without access to health insurance with the safety-net system in the area.
     -
         name: Creative Media Alliance
-        img: https://media-exp3.licdn.com/dms/image/C4D0BAQE3N3W398Z2CA/company-logo_200_200/0/1591116936636?e=1633564800&v=beta&t=7nW_KZCkO1remvIueCiS5Qb6U-suHgMhzQ1fUMXdT3I
+        img: https://media-exp1.licdn.com/dms/image/C4D0BAQE3N3W398Z2CA/company-logo_200_200/0/1591116936636?e=2159024400&v=beta&t=MLOsL7jvNiQRYNArZu1GDN4BML5BKM1C-NjFjF_phYk
         title: Web Developer
         time: 2013 - 2015
         description: Creative Media Alliance is a branding and marketing agency in Seattle, WA. My work included web development and social media API integration for clients ranging from local television shows to health clinics and architecture firms.
@@ -52,6 +52,10 @@ extras:
         time: 2012 - 2015
         description: Situated Laboratories is a consulting and web development agency started by myself and Richard Donohue. For three years we worked with small and large clients on their brand and online presence.
 cv:
+    -
+        name: "Creating Vector Tiles with MTS"
+        link: https://www.twitch.tv/videos/1189483649
+        year: 2021
     -
         name: "High-Tech Cartography and the Liberal Arts - interview through the UW–Madison alumni association"
         link: https://mediaspace.wisc.edu/media/High-Tech+Cartography+and+the+Liberal+Arts/1_l4gwsu7i

@@ -3,6 +3,8 @@ layout: post
 title: "Writing a node module"
 ---
 
+**_UPDATE 2021-12-07: This post was written when I was learning about Node.js and NPM for the very first time. It's not wrong but it's definitely not representative of the modern Node.js development environment. I'm leaving the post here, as is, for posterity. Enjoy!_**
+
 <aside>
     <ol>
         <li><a href="#one">Module structure & index.js</a></li>
