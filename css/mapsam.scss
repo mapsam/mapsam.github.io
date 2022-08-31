@@ -49,9 +49,15 @@ body {
 
 .nav {
   a {
+    background-color: #f6f6f6;
+    padding: 10px;
     &:hover {
       border: none;
     }
+  }
+  a.active {
+    background-color: #f26e77;
+    color: #f6f6f6;
   }
   img {
     width: 80px;

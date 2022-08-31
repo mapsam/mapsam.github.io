@@ -1,3 +1,25 @@
 <nav class="nav cf">
-	<a href="/"><img src="/images/shrug.png"></a>
+	{% if page.url == '/' %}
+		<a href="/" class="active">home</a>
+	{% else %}
+		<a href="/">home</a>
+	{% endif %}
+
+	{% if page.url == '/posts/' %}
+		<a href="/posts" class="active">posts</a>
+	{% else %}
+		<a href="/posts">posts</a>
+	{% endif %}
+
+	{% if page.url == '/projects/' %}
+		<a href="/projects" class="active">projects</a>
+	{% else %}
+		<a href="/projects">projects</a>
+	{% endif %}
+
+	{% if page.url == '/resume/' %}
+		<a href="/resume" class="active">resume</a>
+	{% else %}
+		<a href="/resume">resume</a>
+	{% endif %}
 </nav>
