@@ -24,3 +24,7 @@ The simplified sphere is fun but doesn't really look like a globe. Adding more v
 Finally some rotation using `mesh.rotation.y` and an animation function that fires every redraw of the canvas.
 
 <div id="rotation" style="width:100%;height:200px;"></div>
+
+And on an axis of 23.4 degrees.
+
+<div id="rotation-axis" style="width:100%;height:200px;"></div>
