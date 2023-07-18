@@ -1,9 +1,6 @@
 ---
 ---
 
-$font-main: -apple-system,BlinkMacSystemFont,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-$font-sub: 'Lucida Console',lucida,monospace;
-
 $red: #da8c83;
 $blue: #8c83da;
 $main-color: $blue;
@@ -24,14 +21,14 @@ $max-width: 700px;
 }
 
 body {
-	font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
-	line-height: 1.5em;
-	overflow-x:hidden;
-  font-size: 15.5px;
+	font-family: sans-serif;
+  color: $dark-grey;
+	line-height: 1.6rem;
+	overflow-x: hidden;
+  font-size: 1.1rem;
   margin: 2em auto;
   padding: 1em;
   max-width: $max-width;
-  line-height: 1.9em;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-smoothing: subpixel-antialiased;
@@ -72,15 +69,15 @@ body {
   margin: auto;
 }
 
-p, ul, ol, pre, blockquote {
-  margin-bottom: 2em;
-}
+// p, ul, ol, pre, blockquote {
+//   margin-bottom: 1.6rem;
+// }
 
 p {
-	color: $dark-grey;
-
   code {
     background: #f6f6f6;
+    padding: 0.2rem 0.4rem;
+    border-radius: 2px;
   }
 }
 
