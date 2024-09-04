@@ -65,7 +65,7 @@ The `db.prepare()` method returns a StatementSync class. This class cannot be co
 
 1. `statement.all()` - executes the statement and returns all results as an array. This is the most common method to use for querying.
 1. `statement.get()` - executes the statement and returns the first result as an object.
-1. `statement.expandedSQL()` - returns the sourcel SQL of the prepared statement with the parameter placeholders replaced by values
+1. `statement.expandedSQL()` - returns the source SQL of the prepared statement with the parameter placeholders replaced by values
 
 ```js
 const query = db.prepare('SELECT * FROM data WHERE id > ?');
@@ -105,7 +105,7 @@ const query = db.prepare(`
   ORDER BY 2 DESC
 `);
 
-byCity.all();
+query.all();
 // [
 //   { "LDLI_City": "Seattle", "count": 105 },
 //   { "LDLI_City": "Tacoma", "count": 26 },
