@@ -154,6 +154,6 @@ cv:
         year: 2010
 ---
 
-I’m a software engineer with 8+ years of experience building and maintaining HTTP infrastructure, high performance Node.js APIs, and Python data pipelines. I build tools to help my teammates be more productive, improve build systems, and bring a keen focus on service observability and uptime. I’ve spent the last 3 years as a tech lead architecting and implementing products for customers to make beautiful maps.
+I’m a Backend Software Engineer and Technical Lead with 10 years of experience designing and maintaining HTTP infrastructure, high performance Node.js APIs, and Python data pipelines. Focused on building tools to help teammates be more productive, simplify complex workflows, and bring a keen eye toward debugging, service observability, and fostering friendly teams.
 
-Download/print version can be found [here](./matthews-resume-2022.pdf).
+Download/print version can be found [here](./matthews-resume-2024.pdf).
