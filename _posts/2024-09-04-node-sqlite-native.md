@@ -3,9 +3,9 @@ layout: post
 title: "Native SQLite in Node.js v22.5.0"
 ---
 
-Node.js v22.5.0 introduces an experimental [native `sqlite` module](https://nodejs.org/api/sqlite.html) as part of the core language. Until now, sqlite access in Javascript has largely been by way of the [node-sqlite3](https://github.com/TryGhost/node-sqlite3) (originally created and maintained by Mapbox, now by TryGhost) and [better-sqlite3](https://github.com/WiseLibs/better-sqlite3). These libraries both rely on prebuilt native C++ binaries to ship alongside the NPM package, which can introduce some issues across different architectures and Node versions. 
+Node.js v22.5.0 introduces an experimental [native `sqlite` module](https://nodejs.org/api/sqlite.html) as part of the core language. Until now, sqlite access in Javascript has largely been by way of the [node-sqlite3](https://github.com/TryGhost/node-sqlite3) and [better-sqlite3](https://github.com/WiseLibs/better-sqlite3) modules. These libraries both rely on prebuilt native C++ binaries to ship alongside the NPM package, which can introduce some issues across different architectures and Node versions. especially if there are no binaries available and users must compile from source.
 
-A native interface for SQLite could impact the future of these modules. From what I've gathered across [various](https://github.com/WiseLibs/better-sqlite3/issues/1234) [threads](https://github.com/nodejs/node/issues/53264), the Node.js interface will remain simple and straightforward, whereas the custom modules will expose more options for developers as needed. In particular you can build against custom versions of SQLite if necessary, unlike Node.js which ships with a static version.
+A native interface for SQLite is an exciting update to Node.js core and could impact the future of these modules. From what I've gathered across [various](https://github.com/WiseLibs/better-sqlite3/issues/1234) [threads](https://github.com/nodejs/node/issues/53264), the Node.js interface will remain simple and straightforward, whereas the custom modules will expose more options for developers as needed. In particular you can build against custom versions of SQLite if necessary, unlike Node.js which ships with a static version.
 
 ## Interface
 
