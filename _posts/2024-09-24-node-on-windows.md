@@ -29,7 +29,6 @@ The main sticky point here was _starting_ the SSH agent, which I'm fairly certai
 ```sh
 # start the ssh-agent in the background
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
-
 Start-Service ssh-agent
 ```
 

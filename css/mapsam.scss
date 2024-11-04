@@ -1,224 +1,64 @@
 ---
 ---
 
-$red: #da8c83;
-$blue: #8c83da;
-$main-color: $blue;
-$dark-grey: #333;
-$light-grey: #f6f6f6;
-$grey: #c0c0c0;
-$code: #888;
-
-$max-width: 700px;
-
-/*
-** GLOBALS
-*/
-* {
-  -webkit-box-sizing:border-box;
-     -moz-box-sizing:border-box;
-          box-sizing:border-box;
-}
+$clr-gray: #333;
+$clr-light-gray: #f9f9f9;
 
 body {
-	font-family: sans-serif;
-  color: $dark-grey;
-	line-height: 1.6rem;
-	overflow-x: hidden;
-  font-size: 1.1rem;
-  margin: 2em auto;
-  padding: 1em;
-  max-width: $max-width;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-smoothing: subpixel-antialiased;
-  -webkit-font-smoothing: subpixel-antialiased;
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-  text-rendering: optimizeLegibility;
-  text-rendering: geometricPrecision;
-  -moz-font-feature-settings: "kern" 1, "liga" 1;
-  -ms-font-feature-settings: "kern" 1, "liga" 1;
-  -o-font-feature-settings: "kern" 1, "liga" 1;
-  -webkit-font-feature-settings: "kern" 1, "liga" 1;
-  font-feature-settings: "kern" 1, "liga" 1;
-}
-
-.nav {
-  a {
-    background-color: #f6f6f6;
-    padding: 10px;
-    &:hover {
-      border: none;
-    }
-  }
-  a.active {
-    background-color: #f26e77;
-    color: #f6f6f6;
-  }
-  img {
-    width: 80px;
-    height: auto;
-  }
-  margin-bottom: 2em;
+  font-family: sans-serif;
 }
 
 .container {
-  max-width: $max-width;
-  padding: 1em;
-  margin: auto;
-}
-
-// p, ul, ol, pre, blockquote {
-//   margin-bottom: 1.6rem;
-// }
-
-p {
-  code {
-    background: #f6f6f6;
-    padding: 0.2rem 0.4rem;
-    border-radius: 2px;
-  }
-}
-
-pre {
-  padding: 1em;
-  background: #f6f6f6;
-  overflow-x: scroll;
+  margin: 1em auto 200px;
+  max-width: 700px;
 }
 
 a {
-	text-decoration: none;
-	color: $main-color;
-  &:hover {
-    border-bottom: 1px solid $blue;
+  text-decoration: none;
+}
+
+.content {
+  font-size: 0.95em;
+  line-height: 1.7em;
+  color: $clr-gray;
+
+  a {
+    color: $clr-gray;
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-size: 1.1em;
   }
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #e5e5e5;
-  width: 100%;
-  margin: 2em 0;
+code, pre {
+  font-family: monospace;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+pre {
+  background-color: $clr-light-gray;
+  padding: 1em;
+  border-radius: 0.5em;
+  line-height: 1.5em;
+  overflow-x: scroll;
 }
 
-.cf {
-  &:before {
-    content:" ";
-    display:table;
-  }
-  &:after {
-    clear:both;
-  }
-  *zoom:1;
-}
+.nav {
+  margin: 1em auto 2em;
+  font-weight: bold;
 
-@mixin mono($color) {
-  color: $color;
-  // font-size:.75em;
-}
-.mono {
-  @include mono($grey);
-}
+  a {
+    display: inline-block;
+    margin-right: 1em;
+    color: $clr-gray;
 
-.list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  li {
-    position: relative;
-    span {
-      color: $grey;
-      margin-right: 1em;
-      @include mono($grey);
-      padding: 10px 0;
+    &.active {
+      text-decoration: underline;
     }
   }
-}
-
-.title {
-	font-size:3em;
-	text-align:left;
-	line-height:1.1em;
-	margin:.5em 0 0;
-}
-.date {
-	@include mono($code);
-}
-/* center twitter embeds */
-.twitter-tweet { margin:10px !important; }
-
-.project {
-  margin-bottom: 5em;
-}
-.project-image {
-  width: 90px;
-  height: 45px;
-  float: right;
-  margin-top: -1em;
-  background-color:$grey;
-  background-position: center center;
-  background-repeat:no-repeat;
-  background-size: 100% auto;
-  border-radius: 5px;
-}
-
-/*
-** RESUME
-*/
-.resume {
-  margin-bottom: 5em;
-}
-.resume_item {
-  margin-bottom: 2em;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  &.resume_item_half {
-    @media (min-width: $max-width) {
-      width: 49%;
-    }
-    &:nth-child(1n) {
-      padding-right: 2em;
-    }
-  }
-  .resume_logo {
-    position: absolute;
-    left: -70px;
-    top: 0;
-    width: 55px;
-    img {
-      width: 100%;
-    }
-  }
-}
-.resume_header {
-  margin: 0;
-}
-.resume_title {
-  font-size: 0.8em;
-  font-weight: 100;
-  color: $grey;
-  margin-left: 1em;
-}
-.resume_timeline {
-  font-weight: 100;
-  font-style: italic;
-  margin: 0;
-}
-.resume_description {
-  margin: 0.5em 0;
-}
-
-
-/*
-** FOOTER
-*/
-footer {
-  margin:4em 0 1.5em;
 }
