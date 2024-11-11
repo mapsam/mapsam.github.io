@@ -5,11 +5,20 @@ permalink: /posts/
 weight: 2
 ---
 
+<style>
+  .post-link {
+    text-decoration: none !important;
+  }
+  .post-link:hover {
+    text-decoration: underline !important;
+  }
+</style>
+
 <ul style="list-style-type: none; padding: 0em;">
 {% for post in site.posts %}
 	<li>
 		<span style="margin-right: 2em;"><code>{{ post.date | date: "%Y-%m-%d" }}</code></span>
-		<a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a>
+		<a href="{{ site.base_url }}{{ post.url }}" class="post-link">{{ post.title }}</a>
 	</li>
 {% endfor %}
 </ul>

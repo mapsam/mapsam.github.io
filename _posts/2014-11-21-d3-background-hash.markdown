@@ -54,12 +54,12 @@ svg.selectAll(".elem")
 
 And voila! You will see some sweet hashing taking effect. One cool thing with SVG patterns that you can see in the example below is that the pattern will run uniformly between elements. If you hover on Tanzania, you'll notice some adminstrative borders each with their own `#hash` style, yet the pattern is fluid between them.
 
-<iframe src="http://broadstreetmaps.giscollective.org/d3hash-example" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe>
+<!-- <iframe src="http://broadstreetmaps.giscollective.org/d3hash-example" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe> -->
 
 *note: this takes a while to load since it's through an `iframe`, sorry! You can view the [raw example here](http://broadstreetmaps.giscollective.org/d3hash-example)*
 
 To extend it further, you can define multiple patterns based on your data and essentially set them to create a density style map, the difference being the space between your hash lines.
 
-<iframe src="http://broadstreetmaps.giscollective.org/d3hash-example2" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe>
+<!-- <iframe src="http://broadstreetmaps.giscollective.org/d3hash-example2" width="600" height="400" frameborder="0" style="overflow:hidden;"></iframe> -->
 
 D3 is fun!

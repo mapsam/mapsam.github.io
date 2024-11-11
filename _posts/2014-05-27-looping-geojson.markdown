@@ -20,7 +20,7 @@ Often times I find myself with spatial data in non-spatial formats. Equally as o
 
 It's effectively a javascript object with a standardized format, including **type**, **geometry**, and any number of **properties** (metadata). Much of the time I'm able to convert the data on the client side into a useable geojson format, which can then be mapped. The loop structure is consistent, but how I obtain the data can vary (ajax, jQuery, php, etc.). The use case for this loop is extremely app-specific, so it may not be the thing you need. I just tend to use it a lot for development purposes.
 
-###Basic Loop
+### Basic Loop
 
 {% highlight javascript %}
 var geojson = {};
@@ -43,7 +43,7 @@ for (var k in data) {
 }
 {% endhighlight %}
 
-###Tabletop.js
+### Tabletop.js
 
 Typically I see data come in .csv formats, which is great for keeping things under control and organized - but difficult for the browser. Lately I've seen most .csv on Google Spreadsheets - which can work to our benefit. 
 
