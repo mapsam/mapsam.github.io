@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+weight: 5
+permalink: /talks/
+---
+
+<h2>Talks</h2>
+<table class="list-table">
+{% for talk in site.data.talks %}
+  <tr>
+    <td><span><code>{{ talk.date | date: "%Y-%m-%d" }}</code></span></td>
+    <td><a href="{{ talk.link }}" target="_blank" class="post-link">{{ talk.title }}</a></td>
+  </tr>
+{% endfor %} 
+</table>

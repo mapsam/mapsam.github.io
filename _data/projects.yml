@@ -1,0 +1,90 @@
+-
+  title: Mapbox Tiling Service
+  link: https://www.mapbox.com/mts
+  description: MTS enables you to easily upload and transform your own proprietary geospatial data to then be used in elegant, performant and customizable maps and services within the Mapbox platform.
+  type: Work
+  image: /images/projects/mts.png
+-
+  title: "envercel"
+  link: https://github.com/mapsam/envercel
+  image: /images/projects/envercel.png
+  description: "For testing and discovering the environment variables in Next.js and Vercel applications."
+  type: Personal
+-
+  title: "Beepboop"
+  link: https://github.com/mapsam/beepboop
+  description: "a simple, daily journal. Jot down your feelings, tally your day, or write a poem. Free, private, and built with love ❤️"
+  type: Personal
+-
+  title: Mapbox Vector Tiles
+  link: https://docs.mapbox.com/data/tilesets/guides/vector-tiles-standards/
+  description: Mapbox Vector Tiles are the core rendering format for maps on the internet. I helped shape the future of the specification along with <a href="https://blog.mapbox.com/the-new-mapbox-vector-tile-specification-guide-80f799f68502">writing docs</a>, processing pipelines, and APIs for <a href="https://blog.mapbox.com/style-optimized-vector-tiles-39868da81275">serving tiles</a> over the web. I've written about  and 
+  type: Work
+  image: /images/projects/tampere-mapbox.png
+-
+  title: "Atlas of Design"
+  link: https://atlasofdesign.org
+  description: The Atlas of Design is dedicated to showing off some of the world’s most beautiful and intriguing cartographic design. Every two years, we publish a new volume of full-color maps, selected from worldwide competition and judged by an expert panel.
+  image: /images/projects/atlasofdesign1.jpg
+  type: Community
+-
+  title: Gus
+  link: https://github.com/mapsam/gus
+  image: /images/proj/gus.png
+  description: Gus connects Google Spreadsheets with Maps. The goal is to allow users to quickly and easily create a new, accessible, and updatable point-based map via simple spreadsheets.
+  type: Personal
+- 
+  title: URI
+  link: https://mapsam.com/uri/
+  image: /images/projects/uri.png
+  description: A single page application for learning about uniform resource identifiers.
+  type: Personal
+- 
+  title: Find My Orca
+  link: https://github.com/mapsam/find-my-orca
+  description: A Node.js & ExpressJS application to help humans reconnect with their ORCA cards in the Seattle & Puget Sound area.
+  type: Personal
+- 
+  title: Dropchop
+  link: https://github.com/cugos/dropchop
+  image: /images/proj/dropchop.png
+  description: Dropchop is a browser-based GIS powered by Mapbox.js and Turf.js. The need for small-scale GIS operations comes up quite frequently in our work, especially for those without much time. Dropchop aims to empower your spatial data by removing complexity.
+  type: Community
+-
+  title: "Planning & organizing the CUGOS Spring Fling"
+  link: 
+  date: 2016-04-15
+  type: Community
+-
+  title: "Code for America Fellowship"
+  link: https://mapsam.com/rva/
+  description: The Richmond Code for America fellowship focused on healthcare access for people in poverty. During our initial research phase, we heard from patients, case managers, and screening staff that the eligibility screening process at safety-net health services is often a significant barrier to care.
+  type: Work
+-
+  title: "Maptime Seattle"
+  link: https://maptimesea.github.io
+  description: MaptimeSEA is the Seattle branch of the international Maptime community. Together, we learn and explore mapping technologies through tutorials and other meetups.
+  type: Community
+-
+  title: "CUGOS"
+  link: https://cugos.org
+  description: Former board member and treasurer. The Cascadia chapter of OSGeo is focused on learning and teaching about open data, maps, and spatial applications. We like code and good conversation. I helped plan the <a href="http://cugos.org/2016-spring-fling">2016 Spring Fling</a> and develop the website at <a href="hthttps://github.com/cugos/cugos.github.com">cugos.org</a>.
+  type: Community
+-
+  title: "Broad Street Maps"
+  link: https://mapsam.com/giscollective
+  description: I helped Broad Street Maps create two interactive maps. One looking at the <a href="http://broadstreetmaps.github.io/ppp">public and private partnerships with USAID</a> around the world, the other exploring <a href="https://broadstreetmaps.github.io/tzwater/">water sanitation and security in Tanzania</a>.
+  type: Work
+-
+  title: "GISCollective"
+  link: https://mapsam.com/giscollective
+  description: The Geographic Information Student Collective (GISC) is an ongoing project focused on the compiling, learning, and teaching of mapping knowledge. The goal is to understand our digital environment, how to set it up, and how to manipulate it with an impossibly huge network of languages, programs, and software.
+  type: School
+-
+  title: "Lessons on Land Tenure, Forest Governance and REDD+ design & publishing"
+  link: https://biodiversitylinks.org/projects/completed-projects/translinks/2011/land-tenure-center/ltfc-mgmt-workshop/lessons-on-land-tenure-forest-governance-and-redd/
+  type: School
+-
+  title: "The environmental and social impacts of urban runoff on eutrophic lake ecosystems"
+  link: http://minds.wisconsin.edu/bitstream/handle/1793/47860/Becker%20Daniels%20Matthews%20Roanhaus.pdf.txt;jsessionid=dmfvwv611nnx?sequence=6
+  type: School

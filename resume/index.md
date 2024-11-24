@@ -38,34 +38,6 @@ Creative Media Alliance is a branding and marketing agency in Seattle, WA. My wo
 
 As a data analyst maintaining Google's spatial database my role included user support, data edits, and quality control.
 
-# Writing & talks
-
-* 2021 - Creating Vector Tiles with MTS [link](https://www.twitch.tv/videos/1189483649)
-* 2018 - High-Tech Cartography and the Liberal Arts - interview through the UW–Madison alumni association [link](https://mediaspace.wisc.edu/media/High-Tech+Cartography+and+the+Liberal+Arts/1_l4gwsu7i)
-* 2016 - ESIP Tech Dive: Vector Tile Maps [link](https://www.youtube.com/watch?v=wN2-ms2PwBs)
-* 2016 - NACIS 2016 Talk: Maps are fast and so can you [link](https://docs.google.com/presentation/d/1j40vnKkeszmuLc3D2dsPsBGoBMI6htQSFY-eFwJyeps/pub)
-* 2016 - Mapbox blog: style-optimzed vector tiles [link](https://www.mapbox.com/blog/style-optimized-vector-tiles/)
-* 2016 - Planning & organizing the CUGOS Spring Fling [link](http://cugos.org/2016-spring-fling)
-* 2016 - Mapbox blog: vector tile specification documentation [link](https://www.mapbox.com/blog/vector-tile-spec-docs/)
-* 2016 - Making maps on the internet, UW-Madison Cartography Workshop [link](https://www.youtube.com/watch?v=AbtBi_e3mwc)
-* 2015 - Maptime Seattle, Hand drawn maps [link](http://maptimesea.github.io/2015/12/01/hand-drawn-maps.html)
-* 2015 - End of Year Report, Code for America, Team Richmond [link](http://rva.codeforamerica.org/end-of-year-report/)
-* 2015 - Final presentation to RMHF, Code for America, Team Richmond [link](https://docs.google.com/presentation/d/1Nw_LeRlYTpMcLzzRMycdPzhEducIcoDGYYHAAV1J8Mo/pub)
-* 2015 - GIS for the people, NACIS [link](https://docs.google.com/presentation/d/1JhsWYi1JMVdiZrvVOWiAWUEFtnT0vkcJQpsvDyM-IYM/pub)
-* 2015 - Dropchop, NACIS Practical Cartography Day [link](https://docs.google.com/presentation/d/162KqfCnALSvliexcY8-ctW1mX9hhXWgxV69OWgmf8ok/pub)
-* 2015 - Video presentation, dropchop demo and updates, CUGOS Fall 2015 [link](https://www.youtube.com/watch?v=5VfPOmM6bpo)
-* 2015 - Dropchop talk and workshop, CUGOS 2015 Spring Fling [link](http://cugos.org/2015-spring-fling/)
-* 2015 - State of the Map US writing and notes [link](https://github.com/mapsam/mapsam.github.io/wiki/Notes:-State-of-the-Map-2015,-NYC-(Day-1))
-* 2015 - Code for America – Team Richmond, VA blog [link](http://rva.codeforamerica.org)
-* 2014 - Atlas of Design Volume II, Editor [link](http://atlasofdesign.org)
-* 2014 - Maptime Seattle geocoding and APIs introductory workshop [link](http://maptimesea.github.io/2015/03/03/gecoding-api.html)
-* 2014 - Maptime Seattle geojson and git workshop and tutorial [link](http://maptimesea.github.io/2014/12/03/git-geojson.html)
-* 2014 - Maptime Seattle introduction to webmaps workshop and tutorial [link](http://maptimesea.github.io/2014/11/05/web-map-intro.html)
-* 2012 - GISCollective interview [link](http://news.ls.wisc.edu/announcements/summer-snapshots-gis-students-team-up-to-form-class/)
-* 2012 - GISCollective website and blog posts [link](http://giscollective.org/author/svmatthews/)
-* 2011 - Lessons on Land Tenure, Forest Governance and REDD+ design & publishing [link](http://www.nelson.wisc.edu/ltc/docs/Lessons-about-Land-Tenure-Forest-Governance-and-REDD.pdf)
-* 2010 - The environmental and social impacts of urban runoff on eutrophic lake ecosystems [link](http://minds.wisconsin.edu/bitstream/handle/1793/47860/Becker%20Daniels%20Matthews%20Roanhaus.pdf.txt;jsessionid=dmfvwv611nnx?sequence=6)
-
 # Things
 
 **Editor, Atlas of Design** (`2013 - 2017`)

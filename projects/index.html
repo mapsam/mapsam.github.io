@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+weight: 3
+permalink: /projects/
+---
+
+<h2>Projects</h2>
+<table class="list-table">
+{% for proj in site.data.projects %}
+  <tr>
+    <td>
+      <p><code>{{ proj.type }}</code></p></td>
+    <td>
+      <p>
+        <a href="{{ proj.link }}" target="_blank" class="post-link">{{ proj.title }}</a>
+        {% if proj.description %}-&nbsp;{{ proj.description }}{% endif %}
+      </p>
+      {% if proj.image %}<img src="{{ proj.image }}">{% endif %}
+    </td>
+  </tr>
+{% endfor %} 
+</table>

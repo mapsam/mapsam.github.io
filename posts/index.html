@@ -14,11 +14,13 @@ weight: 2
   }
 </style>
 
-<ul style="list-style-type: none; padding: 0em;">
+<h2>Writing</h2>
+<table class="list-table">
 {% for post in site.posts %}
-	<li>
-		<span style="margin-right: 2em;"><code>{{ post.date | date: "%Y-%m-%d" }}</code></span>
-		<a href="{{ site.base_url }}{{ post.url }}" class="post-link">{{ post.title }}</a>
-	</li>
+	<tr>
+		<td><span><code>{{ post.date | date: "%Y-%m-%d" }}</code></span></td>
+		<td><a href="{{ site.base_url }}{{ post.url }}" class="post-link">{{ post.title }}</a></td>
+  </tr>
 {% endfor %}
-</ul>
+</table>
+

@@ -68,3 +68,14 @@ pre {
     }
   }
 }
+
+.list-table {
+  tr {
+    td {
+      vertical-align: top;
+      &:first-child {
+        min-width: 100px;
+      }
+    }
+  }
+}
