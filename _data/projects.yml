@@ -51,11 +51,6 @@
   description: Dropchop is a browser-based GIS powered by Mapbox.js and Turf.js. The need for small-scale GIS operations comes up quite frequently in our work, especially for those without much time. Dropchop aims to empower your spatial data by removing complexity.
   type: Community
 -
-  title: "Planning & organizing the CUGOS Spring Fling"
-  link: 
-  date: 2016-04-15
-  type: Community
--
   title: "Code for America Fellowship"
   link: https://mapsam.com/rva/
   description: The Richmond Code for America fellowship focused on healthcare access for people in poverty. During our initial research phase, we heard from patients, case managers, and screening staff that the eligibility screening process at safety-net health services is often a significant barrier to care.
