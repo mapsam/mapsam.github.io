@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>mapsam</title>
+  <title>{{ page.title }}</title>
+  <meta property="og:title" content="{{ page.title }}" />
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:url" content="http://mapsam.com{{ page.url }}" />
+  
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+  <meta name="description" content="{{ page.excerpt | strip_html }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
   {% include favicon.html %}
 
@@ -18,6 +22,5 @@
   {% for js in page.extra_js_cdn %}<script type="text/javascript" src="{{ js }}"></script>{% endfor %}
   {% for css in page.extra_css_cdn %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
   {% for css in page.extra_css %}<link rel="stylesheet" href="{{site.baseurl}}/css/{{ css }}">{% endfor %}
-
 </head>
 <body>
