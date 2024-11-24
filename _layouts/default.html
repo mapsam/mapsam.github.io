@@ -1,11 +1,20 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
 
-<div class="container">
-  {% include nav.html %}
-  
-  <div class="content">
-    {{ content }}
+<body>
+  <div class="container">
+    {% include nav.html %}
+    
+    <div class="content">
+      {{ content }}
+    </div>
+
+    <footer>
+      <code>mapsam.com &copy; {{ site.time | date: '%Y' }}<br>matthews.sam@gmail.com</code>
+    </footer>
   </div>
 
-  {% include footer.html %}
-</div>
+  {% for js in page.extra_js %}<script type="text/javascript" src="{{site.baseurl}}/js/{{ js }}"></script>{% endfor %}
+</body>
+</html>
