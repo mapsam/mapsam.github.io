@@ -18,7 +18,7 @@
 -
   title: Mapbox Vector Tiles
   link: https://docs.mapbox.com/data/tilesets/guides/vector-tiles-standards/
-  description: Mapbox Vector Tiles are the core rendering format for maps on the internet. I helped shape the future of the specification along with <a href="https://blog.mapbox.com/the-new-mapbox-vector-tile-specification-guide-80f799f68502">writing docs</a>, processing pipelines, and APIs for <a href="https://blog.mapbox.com/style-optimized-vector-tiles-39868da81275">serving tiles</a> over the web. I've written about  and 
+  description: Mapbox Vector Tiles are the core rendering format for maps on the internet. I helped shape the future of the specification along with <a href="https://blog.mapbox.com/the-new-mapbox-vector-tile-specification-guide-80f799f68502">writing docs</a>, processing pipelines, and APIs for <a href="https://blog.mapbox.com/style-optimized-vector-tiles-39868da81275">serving tiles</a> over the web.
   type: Work
   image: /images/projects/tampere-mapbox.png
 -
